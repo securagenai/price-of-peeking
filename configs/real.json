@@ -1,0 +1,191 @@
+{
+  "alpha": [
+    0.05,
+    0.01
+  ],
+  "cpu_cap": 14400,
+  "design_only": true,
+  "epochs": 40,
+  "fit_rows": 8000,
+  "grid": [
+    256,
+    304,
+    362,
+    430,
+    512,
+    608,
+    724,
+    862,
+    1024,
+    1218,
+    1448,
+    1722,
+    2048,
+    2436,
+    2896,
+    3444,
+    4096
+  ],
+  "integrity_gate": "INTEGRITY_GATE_PLAN.json",
+  "memory_MiB": 1536,
+  "mlp_widths": [
+    16,
+    32
+  ],
+  "noise_levels": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "null_batch": 32,
+  "null_repetitions": 256,
+  "patience": 6,
+  "pilot_background_segments": 2,
+  "pilot_grid": [
+    256,
+    512,
+    1024,
+    2048,
+    4096
+  ],
+  "pilot_repetitions": 16,
+  "randomizations": 999,
+  "rows_per_chunk": 10000,
+  "savings": {
+    "before": "strictly_less_than",
+    "budgets": [
+      1024,
+      2048,
+      4096
+    ],
+    "quantile_method": "linear",
+    "scope": "undegraded natural only; stored synthetic positive cases separately"
+  },
+  "secondary": {
+    "backgrounds": [
+      {
+        "background_id": 0,
+        "capture": "ref_fixed",
+        "implementation": "ref",
+        "ranges": [
+          {
+            "chunk": 0,
+            "start": 0,
+            "stop": 4096
+          }
+        ],
+        "samples": 13000
+      },
+      {
+        "background_id": 1,
+        "capture": "ref_fixed",
+        "implementation": "ref",
+        "ranges": [
+          {
+            "chunk": 0,
+            "start": 4096,
+            "stop": 8192
+          }
+        ],
+        "samples": 13000
+      },
+      {
+        "background_id": 24,
+        "capture": "ref_variable",
+        "implementation": "ref",
+        "ranges": [
+          {
+            "chunk": 2,
+            "start": 0,
+            "stop": 4096
+          }
+        ],
+        "samples": 13000
+      },
+      {
+        "background_id": 25,
+        "capture": "ref_variable",
+        "implementation": "ref",
+        "ranges": [
+          {
+            "chunk": 2,
+            "start": 4096,
+            "stop": 8192
+          }
+        ],
+        "samples": 13000
+      },
+      {
+        "background_id": 43,
+        "capture": "pqm4_fixed",
+        "implementation": "pqm4",
+        "ranges": [
+          {
+            "chunk": 2,
+            "start": 0,
+            "stop": 4096
+          }
+        ],
+        "samples": 20000
+      },
+      {
+        "background_id": 44,
+        "capture": "pqm4_fixed",
+        "implementation": "pqm4",
+        "ranges": [
+          {
+            "chunk": 2,
+            "start": 4096,
+            "stop": 8192
+          }
+        ],
+        "samples": 20000
+      },
+      {
+        "background_id": 86,
+        "capture": "pqm4_variable",
+        "implementation": "pqm4",
+        "ranges": [
+          {
+            "chunk": 2,
+            "start": 0,
+            "stop": 4096
+          }
+        ],
+        "samples": 20000
+      },
+      {
+        "background_id": 87,
+        "capture": "pqm4_variable",
+        "implementation": "pqm4",
+        "ranges": [
+          {
+            "chunk": 2,
+            "start": 4096,
+            "stop": 8192
+          }
+        ],
+        "samples": 20000
+      }
+    ],
+    "column_tile": 4096,
+    "looks": [
+      1000,
+      2000,
+      3000,
+      4000,
+      4096
+    ],
+    "repetitions": 256,
+    "replicate_tile": 8,
+    "status": "ACTIVE"
+  },
+  "secondary_cap_CPU_seconds": 4500,
+  "seed": 2026092605,
+  "segment_rows": 4096,
+  "tile": 512,
+  "version": "real-background-v1.1"
+}

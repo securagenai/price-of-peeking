@@ -1,0 +1,35 @@
+{
+  "GPU": "PROHIBITED",
+  "N_grid": [
+    64,
+    128,
+    256,
+    512,
+    1024
+  ],
+  "N_max": 1024,
+  "alphas": [
+    0.05,
+    0.01
+  ],
+  "frozen_repetitions_reason": "512 null /128 positive fixed after time-only preflight, no outcome inspection",
+  "main_cpu_cap_seconds": 10800,
+  "null_cases": [
+    "drift",
+    "ar1",
+    "heavy_tails",
+    "block_shifts"
+  ],
+  "null_repetitions": 512,
+  "pilot_rows": 512,
+  "positive_cases": [
+    "linear",
+    "nonlinear",
+    "second_order"
+  ],
+  "positive_repetitions": 128,
+  "randomizations": 999,
+  "seed": 2026092602,
+  "training_rows": 1024,
+  "version": "SYNTHETIC_EXTENSION_v0.2"
+}

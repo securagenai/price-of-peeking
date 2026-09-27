@@ -1,0 +1,127 @@
+{
+  "GPU_cap_seconds": 0,
+  "N_grid": [
+    256,
+    512,
+    1024,
+    2048,
+    4096,
+    8192
+  ],
+  "Nmax": 16384,
+  "Nmax_choices": [
+    16384,
+    8192
+  ],
+  "alpha": [
+    0.05,
+    0.01
+  ],
+  "budget_fallback": "DEFER_MAIN; never silently reduce repetitions",
+  "candidate_amplitudes": [
+    0.05,
+    0.1,
+    0.2,
+    0.4,
+    0.8
+  ],
+  "conditioning": "conditional on ONE frozen training witness per scenario, NOT marginal over retraining",
+  "fallback_amplitude": 0.2,
+  "fallback_status": "DIFFICULTY_NOT_ATTAINED; no further candidates or repeats",
+  "features": {
+    "linear": "x0",
+    "nonlinear": "x0_squared",
+    "second_order": "x0_times_x1"
+  },
+  "forecast_safety_factor": 3,
+  "interpolation": "OMITTED",
+  "main_forecast_cap_seconds": 10800,
+  "main_grid": [
+    256,
+    304,
+    362,
+    430,
+    512,
+    608,
+    724,
+    862,
+    1024,
+    1218,
+    1448,
+    1722,
+    2048,
+    2436,
+    2896,
+    3444,
+    4096,
+    4870,
+    5792,
+    6888,
+    8192,
+    9742,
+    11586,
+    13778,
+    16384
+  ],
+  "main_null_repetitions_proposed": 512,
+  "main_positive_repetitions_proposed": 256,
+  "maximum_candidate_trials": 15,
+  "maximum_pilot_streams": 240,
+  "null_scenarios": [
+    "drift",
+    "ar1",
+    "heavy_tails",
+    "block_shifts"
+  ],
+  "ons_literal": "NOT_RERUN; historical v0.2 only",
+  "payoffs": [
+    "raw",
+    "odd_scale_adaptive"
+  ],
+  "pilot_grid": [
+    256,
+    512,
+    1024,
+    2048,
+    4096,
+    8192
+  ],
+  "pilot_repetitions_per_candidate": 16,
+  "pilot_selection": "raw-payoff fixed-N persistent grid N80; eligible [1024,4096]; minimize abs(log(N80/2048)), tie smaller amplitude; no selection on anytime/fixed ratio",
+  "power": 0.8,
+  "prediction_repetitions": 16,
+  "randomizations": 999,
+  "real_data": "PROHIBITED",
+  "rounding": "2*floor(value/2+.5), duplicates removed, endpoints included",
+  "scale": {
+    "epsilon": 1e-06,
+    "initial_pairs": 16,
+    "initial_scale": 0.25,
+    "past_window_pairs": 256,
+    "quantile_method": "linear",
+    "quantiles": [
+      0.1,
+      0.9
+    ],
+    "transform": "tanh(D/scale)"
+  },
+  "scenarios": [
+    "linear",
+    "nonlinear",
+    "second_order"
+  ],
+  "scope": "SYNTHETIC_ONLY",
+  "secondary_mixtures": "DEFERRED",
+  "seed": 2026092603,
+  "selection_alpha": 0.05,
+  "small_step_diagnostic_max_abs_lambda_D": 0.1,
+  "strategies": [
+    "plugin",
+    "ons_gain"
+  ],
+  "task_cpu_cap_seconds": 14400,
+  "training_recipe": "one frozen Ridge alpha1 per scenario; prescribed feature; train-only mean/std; probability clip .005,.995",
+  "training_reference_amplitude": 0.8,
+  "training_rows_per_scenario": 2048,
+  "version": "v0.3.1"
+}

@@ -1,0 +1,11 @@
+The Price of Peeking reproducibility artifact
+
+Repository: https://github.com/securagenai/price-of-peeking
+Original artifact contributions: The Price of Peeking contributors.
+See LICENSE.md and docs/LICENSING_MAP.json for the limited Apache-2.0 / CC BY 4.0 grants. No blanket ownership assertion or license for third-party material is made.
+
+Algorithm attribution: the swap-pair betting and ONS procedures are SKIT-type methods. The local implementation documents SKIT PMLR volume 202, Algorithm 1 and separates literal and gain sign conventions. Algorithm attribution does not imply ownership of the underlying method. No upstream SKIT source file, cryptographic firmware or montgomery_reduce routine is bundled. Existing attribution comments in the independently written research implementations are preserved.
+
+External dataset: Donjon ML-KEM EM dataset, described in ePrint 2026/1851. The locally recorded paper section 5 states GNU LGPL version 3 for the dataset; the inspected unmasked README files do not contain a separate license grant. The dataset and firmware are not included and are not relicensed by this artifact. Verify distributor notices when separately acquiring them.
+
+NumPy, SciPy, scikit-learn, Matplotlib, threadpoolctl and their dependencies are separately obtained dependencies, not bundled code. Their licenses/notices remain with their distributions. Linked papers and license texts are not company-owned works. No rights to excluded material are granted here.

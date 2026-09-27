@@ -1,0 +1,29 @@
+{
+  "cpu_cap_seconds": 14400,
+  "cpu_seconds_measured": 2977.247633900002,
+  "gpu_cap_seconds": 0,
+  "gpu_seconds": 0,
+  "historical_measured_CPU_seconds": 1689.1530478,
+  "historical_sources": [
+    {
+      "measured_CPU_seconds": 356.7663842,
+      "path": "runs/20260926T090442Z-anytime-valid-design/COMPUTE_ACCOUNTING.json",
+      "reserve_seconds": 300,
+      "sha256": "06bca3549a72324cf1a6458f8ac85aa2d21fbcdf31fd7f029a3e99fc3ed6a0e9"
+    },
+    {
+      "measured_CPU_seconds": 1330.7779612,
+      "path": "runs/20260926T095254Z-anytime-valid-extension-v02/COMPUTE_ACCOUNTING.json",
+      "reserve_seconds": 300,
+      "sha256": "fe355908745743d387661524415e340cb08bdddf4da054a65e007dd66d57f936"
+    },
+    {
+      "measured_CPU_seconds": 1.6087023999999999,
+      "path": "runs/20260926T104839Z-anytime-v03-pre-freeze/COMPUTE_ACCOUNTING.json",
+      "reserve_seconds": 300,
+      "sha256": "a1e274c4997fc5b93eff0f4a8ffa41edf3cec423e5f4e879cb6b152c8b4e83cb"
+    }
+  ],
+  "launches": 217,
+  "orchestration_unmeasured_reserve_seconds": 1200
+}

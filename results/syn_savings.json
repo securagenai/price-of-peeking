@@ -1,0 +1,2094 @@
+{
+  "groups": {
+    "linear|odd_scale_adaptive|ons_gain|0.01": {
+      "budgets": {
+        "1024": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.2265625,
+          "not_stopped_before": 198,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.24951171875,
+            "median": 0.7607421875,
+            "q25": 0.57666015625,
+            "q75": 0.826171875
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 1.93701171875,
+            "median": 1.7939453125,
+            "q25": 1.11767578125,
+            "q75": 3.0546875
+          },
+          "stopped_strictly_before": 58,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 255.5,
+            "median": 779.0,
+            "q25": 590.5,
+            "q75": 846.0
+          }
+        },
+        "2048": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.578125,
+          "not_stopped_before": 108,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.407958984375,
+            "median": 0.6064453125,
+            "q25": 0.394287109375,
+            "q75": 0.80224609375
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.968505859375,
+            "median": 0.89697265625,
+            "q25": 0.558837890625,
+            "q75": 1.52734375
+          },
+          "stopped_strictly_before": 148,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 835.5,
+            "median": 1242.0,
+            "q25": 807.5,
+            "q75": 1643.0
+          }
+        },
+        "4096": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.8671875,
+          "not_stopped_before": 34,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.3653564453125,
+            "median": 0.40380859375,
+            "q25": 0.24365234375,
+            "q75": 0.6090087890625
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.4842529296875,
+            "median": 0.448486328125,
+            "q25": 0.2794189453125,
+            "q75": 0.763671875
+          },
+          "stopped_strictly_before": 222,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 1496.5,
+            "median": 1654.0,
+            "q25": 998.0,
+            "q75": 2494.5
+          }
+        }
+      },
+      "censored_at_horizon": 0,
+      "denominator": 256,
+      "finite_stops": 256,
+      "horizon_rows": 16384,
+      "interpretation": "Descriptive; noncrossings stay censored, never replaced by horizon as a stop",
+      "stopping_rows_conditional_on_finite": {
+        "IQR": 1983.5,
+        "median": 1837.0,
+        "q25": 1144.5,
+        "q75": 3128.0
+      }
+    },
+    "linear|odd_scale_adaptive|ons_gain|0.05": {
+      "budgets": {
+        "1024": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.45703125,
+          "not_stopped_before": 139,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.447265625,
+            "median": 0.56640625,
+            "q25": 0.349609375,
+            "q75": 0.796875
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 1.31494140625,
+            "median": 1.119140625,
+            "q25": 0.63671875,
+            "q75": 1.95166015625
+          },
+          "stopped_strictly_before": 117,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 458.0,
+            "median": 580.0,
+            "q25": 358.0,
+            "q75": 816.0
+          }
+        },
+        "2048": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.76171875,
+          "not_stopped_before": 61,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.41064453125,
+            "median": 0.4267578125,
+            "q25": 0.2265625,
+            "q75": 0.63720703125
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.657470703125,
+            "median": 0.5595703125,
+            "q25": 0.318359375,
+            "q75": 0.975830078125
+          },
+          "stopped_strictly_before": 195,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 841.0,
+            "median": 874.0,
+            "q25": 464.0,
+            "q75": 1305.0
+          }
+        },
+        "4096": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.96875,
+          "not_stopped_before": 8,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.2928466796875,
+            "median": 0.2724609375,
+            "q25": 0.1549072265625,
+            "q75": 0.44775390625
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.3287353515625,
+            "median": 0.27978515625,
+            "q25": 0.1591796875,
+            "q75": 0.4879150390625
+          },
+          "stopped_strictly_before": 248,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 1199.5,
+            "median": 1116.0,
+            "q25": 634.5,
+            "q75": 1834.0
+          }
+        }
+      },
+      "censored_at_horizon": 0,
+      "denominator": 256,
+      "finite_stops": 256,
+      "horizon_rows": 16384,
+      "interpretation": "Descriptive; noncrossings stay censored, never replaced by horizon as a stop",
+      "stopping_rows_conditional_on_finite": {
+        "IQR": 1346.5,
+        "median": 1146.0,
+        "q25": 652.0,
+        "q75": 1998.5
+      }
+    },
+    "linear|odd_scale_adaptive|plugin|0.01": {
+      "budgets": {
+        "1024": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.20703125,
+          "not_stopped_before": 203,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.5078125,
+            "median": 0.6484375,
+            "q25": 0.310546875,
+            "q75": 0.818359375
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 1.8359375,
+            "median": 1.865234375,
+            "q25": 1.10009765625,
+            "q75": 2.93603515625
+          },
+          "stopped_strictly_before": 53,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 520.0,
+            "median": 664.0,
+            "q25": 318.0,
+            "q75": 838.0
+          }
+        },
+        "2048": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.5546875,
+          "not_stopped_before": 114,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.38818359375,
+            "median": 0.61669921875,
+            "q25": 0.390869140625,
+            "q75": 0.779052734375
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.91796875,
+            "median": 0.9326171875,
+            "q25": 0.550048828125,
+            "q75": 1.468017578125
+          },
+          "stopped_strictly_before": 142,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 795.0,
+            "median": 1263.0,
+            "q25": 800.5,
+            "q75": 1595.5
+          }
+        },
+        "4096": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.890625,
+          "not_stopped_before": 28,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.376220703125,
+            "median": 0.414794921875,
+            "q25": 0.2608642578125,
+            "q75": 0.6370849609375
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.458984375,
+            "median": 0.46630859375,
+            "q25": 0.2750244140625,
+            "q75": 0.7340087890625
+          },
+          "stopped_strictly_before": 228,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 1541.0,
+            "median": 1699.0,
+            "q25": 1068.5,
+            "q75": 2609.5
+          }
+        }
+      },
+      "censored_at_horizon": 0,
+      "denominator": 256,
+      "finite_stops": 256,
+      "horizon_rows": 16384,
+      "interpretation": "Descriptive; noncrossings stay censored, never replaced by horizon as a stop",
+      "stopping_rows_conditional_on_finite": {
+        "IQR": 1880.0,
+        "median": 1910.0,
+        "q25": 1126.5,
+        "q75": 3006.5
+      }
+    },
+    "linear|odd_scale_adaptive|plugin|0.05": {
+      "budgets": {
+        "1024": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.43359375,
+          "not_stopped_before": 145,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.4736328125,
+            "median": 0.548828125,
+            "q25": 0.29296875,
+            "q75": 0.7666015625
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 1.388671875,
+            "median": 1.201171875,
+            "q25": 0.64990234375,
+            "q75": 2.03857421875
+          },
+          "stopped_strictly_before": 111,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 485.0,
+            "median": 562.0,
+            "q25": 300.0,
+            "q75": 785.0
+          }
+        },
+        "2048": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.73828125,
+          "not_stopped_before": 67,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.4169921875,
+            "median": 0.41796875,
+            "q25": 0.244140625,
+            "q75": 0.6611328125
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.6943359375,
+            "median": 0.6005859375,
+            "q25": 0.324951171875,
+            "q75": 1.019287109375
+          },
+          "stopped_strictly_before": 189,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 854.0,
+            "median": 856.0,
+            "q25": 500.0,
+            "q75": 1354.0
+          }
+        },
+        "4096": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.96875,
+          "not_stopped_before": 8,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.328369140625,
+            "median": 0.2939453125,
+            "q25": 0.15576171875,
+            "q75": 0.484130859375
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.34716796875,
+            "median": 0.30029296875,
+            "q25": 0.1624755859375,
+            "q75": 0.5096435546875
+          },
+          "stopped_strictly_before": 248,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 1345.0,
+            "median": 1204.0,
+            "q25": 638.0,
+            "q75": 1983.0
+          }
+        }
+      },
+      "censored_at_horizon": 0,
+      "denominator": 256,
+      "finite_stops": 256,
+      "horizon_rows": 16384,
+      "interpretation": "Descriptive; noncrossings stay censored, never replaced by horizon as a stop",
+      "stopping_rows_conditional_on_finite": {
+        "IQR": 1422.0,
+        "median": 1230.0,
+        "q25": 665.5,
+        "q75": 2087.5
+      }
+    },
+    "linear|raw|ons_gain|0.01": {
+      "budgets": {
+        "1024": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.1640625,
+          "not_stopped_before": 214,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.181640625,
+            "median": 0.857421875,
+            "q25": 0.75390625,
+            "q75": 0.935546875
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 1.4599609375,
+            "median": 1.7392578125,
+            "q25": 1.23828125,
+            "q75": 2.6982421875
+          },
+          "stopped_strictly_before": 42,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 186.0,
+            "median": 878.0,
+            "q25": 772.0,
+            "q75": 958.0
+          }
+        },
+        "2048": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.609375,
+          "not_stopped_before": 100,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.322998046875,
+            "median": 0.67529296875,
+            "q25": 0.492919921875,
+            "q75": 0.81591796875
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.72998046875,
+            "median": 0.86962890625,
+            "q25": 0.619140625,
+            "q75": 1.34912109375
+          },
+          "stopped_strictly_before": 156,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 661.5,
+            "median": 1383.0,
+            "q25": 1009.5,
+            "q75": 1671.0
+          }
+        },
+        "4096": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.953125,
+          "not_stopped_before": 12,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.32421875,
+            "median": 0.421630859375,
+            "q25": 0.3055419921875,
+            "q75": 0.6297607421875
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.364990234375,
+            "median": 0.434814453125,
+            "q25": 0.3095703125,
+            "q75": 0.674560546875
+          },
+          "stopped_strictly_before": 244,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 1328.0,
+            "median": 1727.0,
+            "q25": 1251.5,
+            "q75": 2579.5
+          }
+        }
+      },
+      "censored_at_horizon": 0,
+      "denominator": 256,
+      "finite_stops": 256,
+      "horizon_rows": 16384,
+      "interpretation": "Descriptive; noncrossings stay censored, never replaced by horizon as a stop",
+      "stopping_rows_conditional_on_finite": {
+        "IQR": 1495.0,
+        "median": 1781.0,
+        "q25": 1268.0,
+        "q75": 2763.0
+      }
+    },
+    "linear|raw|ons_gain|0.05": {
+      "budgets": {
+        "1024": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.42578125,
+          "not_stopped_before": 147,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.337890625,
+            "median": 0.693359375,
+            "q25": 0.5078125,
+            "q75": 0.845703125
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.98583984375,
+            "median": 1.1259765625,
+            "q25": 0.759765625,
+            "q75": 1.74560546875
+          },
+          "stopped_strictly_before": 109,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 346.0,
+            "median": 710.0,
+            "q25": 520.0,
+            "q75": 866.0
+          }
+        },
+        "2048": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.79296875,
+          "not_stopped_before": 53,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.32958984375,
+            "median": 0.466796875,
+            "q25": 0.33837890625,
+            "q75": 0.66796875
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.492919921875,
+            "median": 0.56298828125,
+            "q25": 0.3798828125,
+            "q75": 0.872802734375
+          },
+          "stopped_strictly_before": 203,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 675.0,
+            "median": 956.0,
+            "q25": 693.0,
+            "q75": 1368.0
+          }
+        },
+        "4096": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.98046875,
+          "not_stopped_before": 5,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.2353515625,
+            "median": 0.27490234375,
+            "q25": 0.18994140625,
+            "q75": 0.42529296875
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.2464599609375,
+            "median": 0.281494140625,
+            "q25": 0.18994140625,
+            "q75": 0.4364013671875
+          },
+          "stopped_strictly_before": 251,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 964.0,
+            "median": 1126.0,
+            "q25": 778.0,
+            "q75": 1742.0
+          }
+        }
+      },
+      "censored_at_horizon": 0,
+      "denominator": 256,
+      "finite_stops": 256,
+      "horizon_rows": 16384,
+      "interpretation": "Descriptive; noncrossings stay censored, never replaced by horizon as a stop",
+      "stopping_rows_conditional_on_finite": {
+        "IQR": 1009.5,
+        "median": 1153.0,
+        "q25": 778.0,
+        "q75": 1787.5
+      }
+    },
+    "linear|raw|plugin|0.01": {
+      "budgets": {
+        "1024": {
+          "equal_to_budget": 1,
+          "fraction_stopped_before": 0.23828125,
+          "not_stopped_before": 195,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.212890625,
+            "median": 0.78125,
+            "q25": 0.6640625,
+            "q75": 0.876953125
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 1.6904296875,
+            "median": 1.6083984375,
+            "q25": 1.03515625,
+            "q75": 2.7255859375
+          },
+          "stopped_strictly_before": 61,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 218.0,
+            "median": 800.0,
+            "q25": 680.0,
+            "q75": 898.0
+          }
+        },
+        "2048": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.625,
+          "not_stopped_before": 96,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.358642578125,
+            "median": 0.568359375,
+            "q25": 0.4169921875,
+            "q75": 0.775634765625
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.84521484375,
+            "median": 0.80419921875,
+            "q25": 0.517578125,
+            "q75": 1.36279296875
+          },
+          "stopped_strictly_before": 160,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 734.5,
+            "median": 1164.0,
+            "q25": 854.0,
+            "q75": 1588.5
+          }
+        },
+        "4096": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.93359375,
+          "not_stopped_before": 17,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.349609375,
+            "median": 0.38720703125,
+            "q25": 0.245361328125,
+            "q75": 0.594970703125
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.422607421875,
+            "median": 0.402099609375,
+            "q25": 0.2587890625,
+            "q75": 0.681396484375
+          },
+          "stopped_strictly_before": 239,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 1432.0,
+            "median": 1586.0,
+            "q25": 1005.0,
+            "q75": 2437.0
+          }
+        }
+      },
+      "censored_at_horizon": 0,
+      "denominator": 256,
+      "finite_stops": 256,
+      "horizon_rows": 16384,
+      "interpretation": "Descriptive; noncrossings stay censored, never replaced by horizon as a stop",
+      "stopping_rows_conditional_on_finite": {
+        "IQR": 1731.0,
+        "median": 1647.0,
+        "q25": 1060.0,
+        "q75": 2791.0
+      }
+    },
+    "linear|raw|plugin|0.05": {
+      "budgets": {
+        "1024": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.4453125,
+          "not_stopped_before": 142,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.36279296875,
+            "median": 0.63671875,
+            "q25": 0.41455078125,
+            "q75": 0.77734375
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 1.23779296875,
+            "median": 1.162109375,
+            "q25": 0.6708984375,
+            "q75": 1.90869140625
+          },
+          "stopped_strictly_before": 114,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 371.5,
+            "median": 652.0,
+            "q25": 424.5,
+            "q75": 796.0
+          }
+        },
+        "2048": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.765625,
+          "not_stopped_before": 60,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.371337890625,
+            "median": 0.43505859375,
+            "q25": 0.28369140625,
+            "q75": 0.655029296875
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.618896484375,
+            "median": 0.5810546875,
+            "q25": 0.33544921875,
+            "q75": 0.954345703125
+          },
+          "stopped_strictly_before": 196,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 760.5,
+            "median": 891.0,
+            "q25": 581.0,
+            "q75": 1341.5
+          }
+        },
+        "4096": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.97265625,
+          "not_stopped_before": 7,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.29443359375,
+            "median": 0.27685546875,
+            "q25": 0.1650390625,
+            "q75": 0.45947265625
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.3094482421875,
+            "median": 0.29052734375,
+            "q25": 0.167724609375,
+            "q75": 0.4771728515625
+          },
+          "stopped_strictly_before": 249,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 1206.0,
+            "median": 1134.0,
+            "q25": 676.0,
+            "q75": 1882.0
+          }
+        }
+      },
+      "censored_at_horizon": 0,
+      "denominator": 256,
+      "finite_stops": 256,
+      "horizon_rows": 16384,
+      "interpretation": "Descriptive; noncrossings stay censored, never replaced by horizon as a stop",
+      "stopping_rows_conditional_on_finite": {
+        "IQR": 1267.5,
+        "median": 1190.0,
+        "q25": 687.0,
+        "q75": 1954.5
+      }
+    },
+    "nonlinear|odd_scale_adaptive|ons_gain|0.01": {
+      "budgets": {
+        "1024": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.19921875,
+          "not_stopped_before": 205,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.427734375,
+            "median": 0.552734375,
+            "q25": 0.37109375,
+            "q75": 0.798828125
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 2.30810546875,
+            "median": 2.2177734375,
+            "q25": 1.20654296875,
+            "q75": 3.5146484375
+          },
+          "stopped_strictly_before": 51,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 438.0,
+            "median": 566.0,
+            "q25": 380.0,
+            "q75": 818.0
+          }
+        },
+        "2048": {
+          "equal_to_budget": 1,
+          "fraction_stopped_before": 0.4453125,
+          "not_stopped_before": 142,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.498046875,
+            "median": 0.56396484375,
+            "q25": 0.310302734375,
+            "q75": 0.808349609375
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 1.154052734375,
+            "median": 1.10888671875,
+            "q25": 0.603271484375,
+            "q75": 1.75732421875
+          },
+          "stopped_strictly_before": 114,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 1020.0,
+            "median": 1155.0,
+            "q25": 635.5,
+            "q75": 1655.5
+          }
+        },
+        "4096": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.8046875,
+          "not_stopped_before": 50,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.464599609375,
+            "median": 0.47216796875,
+            "q25": 0.256103515625,
+            "q75": 0.720703125
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.5770263671875,
+            "median": 0.554443359375,
+            "q25": 0.3016357421875,
+            "q75": 0.878662109375
+          },
+          "stopped_strictly_before": 206,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 1903.0,
+            "median": 1934.0,
+            "q25": 1049.0,
+            "q75": 2952.0
+          }
+        }
+      },
+      "censored_at_horizon": 0,
+      "denominator": 256,
+      "finite_stops": 256,
+      "horizon_rows": 16384,
+      "interpretation": "Descriptive; noncrossings stay censored, never replaced by horizon as a stop",
+      "stopping_rows_conditional_on_finite": {
+        "IQR": 2363.5,
+        "median": 2271.0,
+        "q25": 1235.5,
+        "q75": 3599.0
+      }
+    },
+    "nonlinear|odd_scale_adaptive|ons_gain|0.05": {
+      "budgets": {
+        "1024": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.38671875,
+          "not_stopped_before": 157,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.49609375,
+            "median": 0.48828125,
+            "q25": 0.2578125,
+            "q75": 0.75390625
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 1.72119140625,
+            "median": 1.330078125,
+            "q25": 0.63037109375,
+            "q75": 2.3515625
+          },
+          "stopped_strictly_before": 99,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 508.0,
+            "median": 500.0,
+            "q25": 264.0,
+            "q75": 772.0
+          }
+        },
+        "2048": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.68359375,
+          "not_stopped_before": 81,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.46875,
+            "median": 0.4423828125,
+            "q25": 0.21826171875,
+            "q75": 0.68701171875
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.860595703125,
+            "median": 0.6650390625,
+            "q25": 0.315185546875,
+            "q75": 1.17578125
+          },
+          "stopped_strictly_before": 175,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 960.0,
+            "median": 906.0,
+            "q25": 447.0,
+            "q75": 1407.0
+          }
+        },
+        "4096": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.9453125,
+          "not_stopped_before": 14,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.392578125,
+            "median": 0.317138671875,
+            "q25": 0.146240234375,
+            "q75": 0.538818359375
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.4302978515625,
+            "median": 0.33251953125,
+            "q25": 0.1575927734375,
+            "q75": 0.587890625
+          },
+          "stopped_strictly_before": 242,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 1608.0,
+            "median": 1299.0,
+            "q25": 599.0,
+            "q75": 2207.0
+          }
+        }
+      },
+      "censored_at_horizon": 0,
+      "denominator": 256,
+      "finite_stops": 256,
+      "horizon_rows": 16384,
+      "interpretation": "Descriptive; noncrossings stay censored, never replaced by horizon as a stop",
+      "stopping_rows_conditional_on_finite": {
+        "IQR": 1762.5,
+        "median": 1362.0,
+        "q25": 645.5,
+        "q75": 2408.0
+      }
+    },
+    "nonlinear|odd_scale_adaptive|plugin|0.01": {
+      "budgets": {
+        "1024": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.18359375,
+          "not_stopped_before": 209,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.4150390625,
+            "median": 0.576171875,
+            "q25": 0.333984375,
+            "q75": 0.7490234375
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 2.10302734375,
+            "median": 2.1767578125,
+            "q25": 1.27685546875,
+            "q75": 3.3798828125
+          },
+          "stopped_strictly_before": 47,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 425.0,
+            "median": 590.0,
+            "q25": 342.0,
+            "q75": 767.0
+          }
+        },
+        "2048": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.44921875,
+          "not_stopped_before": 141,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.5068359375,
+            "median": 0.5791015625,
+            "q25": 0.33642578125,
+            "q75": 0.84326171875
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 1.051513671875,
+            "median": 1.08837890625,
+            "q25": 0.638427734375,
+            "q75": 1.68994140625
+          },
+          "stopped_strictly_before": 115,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 1038.0,
+            "median": 1186.0,
+            "q25": 689.0,
+            "q75": 1727.0
+          }
+        },
+        "4096": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.83203125,
+          "not_stopped_before": 43,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.4677734375,
+            "median": 0.4736328125,
+            "q25": 0.2734375,
+            "q75": 0.7412109375
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.5257568359375,
+            "median": 0.544189453125,
+            "q25": 0.3192138671875,
+            "q75": 0.844970703125
+          },
+          "stopped_strictly_before": 213,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 1916.0,
+            "median": 1940.0,
+            "q25": 1120.0,
+            "q75": 3036.0
+          }
+        }
+      },
+      "censored_at_horizon": 0,
+      "denominator": 256,
+      "finite_stops": 256,
+      "horizon_rows": 16384,
+      "interpretation": "Descriptive; noncrossings stay censored, never replaced by horizon as a stop",
+      "stopping_rows_conditional_on_finite": {
+        "IQR": 2153.5,
+        "median": 2229.0,
+        "q25": 1307.5,
+        "q75": 3461.0
+      }
+    },
+    "nonlinear|odd_scale_adaptive|plugin|0.05": {
+      "budgets": {
+        "1024": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.36328125,
+          "not_stopped_before": 163,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.490234375,
+            "median": 0.3984375,
+            "q25": 0.212890625,
+            "q75": 0.703125
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 1.8974609375,
+            "median": 1.5068359375,
+            "q25": 0.59326171875,
+            "q75": 2.49072265625
+          },
+          "stopped_strictly_before": 93,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 502.0,
+            "median": 408.0,
+            "q25": 218.0,
+            "q75": 720.0
+          }
+        },
+        "2048": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.65625,
+          "not_stopped_before": 88,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.5595703125,
+            "median": 0.4541015625,
+            "q25": 0.18115234375,
+            "q75": 0.74072265625
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.94873046875,
+            "median": 0.75341796875,
+            "q25": 0.296630859375,
+            "q75": 1.245361328125
+          },
+          "stopped_strictly_before": 168,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 1146.0,
+            "median": 930.0,
+            "q25": 371.0,
+            "q75": 1517.0
+          }
+        },
+        "4096": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.953125,
+          "not_stopped_before": 12,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.440185546875,
+            "median": 0.355224609375,
+            "q25": 0.1370849609375,
+            "q75": 0.5772705078125
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.474365234375,
+            "median": 0.376708984375,
+            "q25": 0.1483154296875,
+            "q75": 0.6226806640625
+          },
+          "stopped_strictly_before": 244,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 1803.0,
+            "median": 1455.0,
+            "q25": 561.5,
+            "q75": 2364.5
+          }
+        }
+      },
+      "censored_at_horizon": 0,
+      "denominator": 256,
+      "finite_stops": 256,
+      "horizon_rows": 16384,
+      "interpretation": "Descriptive; noncrossings stay censored, never replaced by horizon as a stop",
+      "stopping_rows_conditional_on_finite": {
+        "IQR": 1943.0,
+        "median": 1543.0,
+        "q25": 607.5,
+        "q75": 2550.5
+      }
+    },
+    "nonlinear|raw|ons_gain|0.01": {
+      "budgets": {
+        "1024": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.03125,
+          "not_stopped_before": 248,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.05859375,
+            "median": 0.9794921875,
+            "q25": 0.939453125,
+            "q75": 0.998046875
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 1.52001953125,
+            "median": 2.435546875,
+            "q25": 1.78955078125,
+            "q75": 3.3095703125
+          },
+          "stopped_strictly_before": 8,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 60.0,
+            "median": 1003.0,
+            "q25": 962.0,
+            "q75": 1022.0
+          }
+        },
+        "2048": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.34765625,
+          "not_stopped_before": 167,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.2724609375,
+            "median": 0.79296875,
+            "q25": 0.634765625,
+            "q75": 0.9072265625
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.760009765625,
+            "median": 1.2177734375,
+            "q25": 0.894775390625,
+            "q75": 1.65478515625
+          },
+          "stopped_strictly_before": 89,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 558.0,
+            "median": 1624.0,
+            "q25": 1300.0,
+            "q75": 1858.0
+          }
+        },
+        "4096": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.88671875,
+          "not_stopped_before": 29,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.340576171875,
+            "median": 0.56787109375,
+            "q25": 0.427978515625,
+            "q75": 0.7685546875
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.3800048828125,
+            "median": 0.60888671875,
+            "q25": 0.4473876953125,
+            "q75": 0.827392578125
+          },
+          "stopped_strictly_before": 227,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 1395.0,
+            "median": 2326.0,
+            "q25": 1753.0,
+            "q75": 3148.0
+          }
+        }
+      },
+      "censored_at_horizon": 0,
+      "denominator": 256,
+      "finite_stops": 256,
+      "horizon_rows": 16384,
+      "interpretation": "Descriptive; noncrossings stay censored, never replaced by horizon as a stop",
+      "stopping_rows_conditional_on_finite": {
+        "IQR": 1556.5,
+        "median": 2494.0,
+        "q25": 1832.5,
+        "q75": 3389.0
+      }
+    },
+    "nonlinear|raw|ons_gain|0.05": {
+      "budgets": {
+        "1024": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.19921875,
+          "not_stopped_before": 205,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.263671875,
+            "median": 0.75,
+            "q25": 0.6357421875,
+            "q75": 0.8994140625
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 1.10302734375,
+            "median": 1.5556640625,
+            "q25": 1.11279296875,
+            "q75": 2.2158203125
+          },
+          "stopped_strictly_before": 51,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 270.0,
+            "median": 768.0,
+            "q25": 651.0,
+            "q75": 921.0
+          }
+        },
+        "2048": {
+          "equal_to_budget": 1,
+          "fraction_stopped_before": 0.671875,
+          "not_stopped_before": 84,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.3212890625,
+            "median": 0.6201171875,
+            "q25": 0.463134765625,
+            "q75": 0.784423828125
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.551513671875,
+            "median": 0.77783203125,
+            "q25": 0.556396484375,
+            "q75": 1.10791015625
+          },
+          "stopped_strictly_before": 172,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 658.0,
+            "median": 1270.0,
+            "q25": 948.5,
+            "q75": 1606.5
+          }
+        },
+        "4096": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.984375,
+          "not_stopped_before": 4,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.2672119140625,
+            "median": 0.386474609375,
+            "q25": 0.2777099609375,
+            "q75": 0.544921875
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.2757568359375,
+            "median": 0.388916015625,
+            "q25": 0.2781982421875,
+            "q75": 0.553955078125
+          },
+          "stopped_strictly_before": 252,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 1094.5,
+            "median": 1583.0,
+            "q25": 1137.5,
+            "q75": 2232.0
+          }
+        }
+      },
+      "censored_at_horizon": 0,
+      "denominator": 256,
+      "finite_stops": 256,
+      "horizon_rows": 16384,
+      "interpretation": "Descriptive; noncrossings stay censored, never replaced by horizon as a stop",
+      "stopping_rows_conditional_on_finite": {
+        "IQR": 1129.5,
+        "median": 1593.0,
+        "q25": 1139.5,
+        "q75": 2269.0
+      }
+    },
+    "nonlinear|raw|plugin|0.01": {
+      "budgets": {
+        "1024": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.09375,
+          "not_stopped_before": 232,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.16015625,
+            "median": 0.8330078125,
+            "q25": 0.7734375,
+            "q75": 0.93359375
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 1.583984375,
+            "median": 1.984375,
+            "q25": 1.427734375,
+            "q75": 3.01171875
+          },
+          "stopped_strictly_before": 24,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 164.0,
+            "median": 853.0,
+            "q25": 792.0,
+            "q75": 956.0
+          }
+        },
+        "2048": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.50390625,
+          "not_stopped_before": 127,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.296875,
+            "median": 0.716796875,
+            "q25": 0.56640625,
+            "q75": 0.86328125
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.7919921875,
+            "median": 0.9921875,
+            "q25": 0.7138671875,
+            "q75": 1.505859375
+          },
+          "stopped_strictly_before": 129,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 608.0,
+            "median": 1468.0,
+            "q25": 1160.0,
+            "q75": 1768.0
+          }
+        },
+        "4096": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.90625,
+          "not_stopped_before": 24,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.3455810546875,
+            "median": 0.47216796875,
+            "q25": 0.3316650390625,
+            "q75": 0.67724609375
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.39599609375,
+            "median": 0.49609375,
+            "q25": 0.35693359375,
+            "q75": 0.7529296875
+          },
+          "stopped_strictly_before": 232,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 1415.5,
+            "median": 1934.0,
+            "q25": 1358.5,
+            "q75": 2774.0
+          }
+        }
+      },
+      "censored_at_horizon": 0,
+      "denominator": 256,
+      "finite_stops": 256,
+      "horizon_rows": 16384,
+      "interpretation": "Descriptive; noncrossings stay censored, never replaced by horizon as a stop",
+      "stopping_rows_conditional_on_finite": {
+        "IQR": 1622.0,
+        "median": 2032.0,
+        "q25": 1462.0,
+        "q75": 3084.0
+      }
+    },
+    "nonlinear|raw|plugin|0.05": {
+      "budgets": {
+        "1024": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.3203125,
+          "not_stopped_before": 174,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.32373046875,
+            "median": 0.7177734375,
+            "q25": 0.55810546875,
+            "q75": 0.8818359375
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 1.2841796875,
+            "median": 1.3271484375,
+            "q25": 0.89501953125,
+            "q75": 2.17919921875
+          },
+          "stopped_strictly_before": 82,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 331.5,
+            "median": 735.0,
+            "q25": 571.5,
+            "q75": 903.0
+          }
+        },
+        "2048": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.71875,
+          "not_stopped_before": 72,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.297119140625,
+            "median": 0.517578125,
+            "q25": 0.3837890625,
+            "q75": 0.680908203125
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.64208984375,
+            "median": 0.66357421875,
+            "q25": 0.447509765625,
+            "q75": 1.089599609375
+          },
+          "stopped_strictly_before": 184,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 608.5,
+            "median": 1060.0,
+            "q25": 786.0,
+            "q75": 1394.5
+          }
+        },
+        "4096": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.98046875,
+          "not_stopped_before": 5,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.301513671875,
+            "median": 0.32861328125,
+            "q25": 0.222412109375,
+            "q75": 0.52392578125
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 0.321044921875,
+            "median": 0.331787109375,
+            "q25": 0.2237548828125,
+            "q75": 0.5447998046875
+          },
+          "stopped_strictly_before": 251,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 1235.0,
+            "median": 1346.0,
+            "q25": 911.0,
+            "q75": 2146.0
+          }
+        }
+      },
+      "censored_at_horizon": 0,
+      "denominator": 256,
+      "finite_stops": 256,
+      "horizon_rows": 16384,
+      "interpretation": "Descriptive; noncrossings stay censored, never replaced by horizon as a stop",
+      "stopping_rows_conditional_on_finite": {
+        "IQR": 1315.0,
+        "median": 1359.0,
+        "q25": 916.5,
+        "q75": 2231.5
+      }
+    },
+    "second_order|odd_scale_adaptive|ons_gain|0.01": {
+      "budgets": {
+        "1024": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.03125,
+          "not_stopped_before": 248,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.5458984375,
+            "median": 0.607421875,
+            "q25": 0.3310546875,
+            "q75": 0.876953125
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 6.17822265625,
+            "median": 8.685546875,
+            "q25": 5.29833984375,
+            "q75": 11.4765625
+          },
+          "stopped_strictly_before": 8,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 559.0,
+            "median": 622.0,
+            "q25": 339.0,
+            "q75": 898.0
+          }
+        },
+        "2048": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.0546875,
+          "not_stopped_before": 242,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.4248046875,
+            "median": 0.48095703125,
+            "q25": 0.248046875,
+            "q75": 0.6728515625
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 3.089111328125,
+            "median": 4.3427734375,
+            "q25": 2.649169921875,
+            "q75": 5.73828125
+          },
+          "stopped_strictly_before": 14,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 870.0,
+            "median": 985.0,
+            "q25": 508.0,
+            "q75": 1378.0
+          }
+        },
+        "4096": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.1171875,
+          "not_stopped_before": 226,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.5465087890625,
+            "median": 0.578125,
+            "q25": 0.2515869140625,
+            "q75": 0.798095703125
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 1.5445556640625,
+            "median": 2.17138671875,
+            "q25": 1.3245849609375,
+            "q75": 2.869140625
+          },
+          "stopped_strictly_before": 30,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 2238.5,
+            "median": 2368.0,
+            "q25": 1030.5,
+            "q75": 3269.0
+          }
+        }
+      },
+      "censored_at_horizon": 64,
+      "denominator": 256,
+      "finite_stops": 192,
+      "horizon_rows": 16384,
+      "interpretation": "Descriptive; noncrossings stay censored, never replaced by horizon as a stop",
+      "stopping_rows_conditional_on_finite": {
+        "IQR": 6326.5,
+        "median": 8894.0,
+        "q25": 5425.5,
+        "q75": 11752.0
+      }
+    },
+    "second_order|odd_scale_adaptive|ons_gain|0.05": {
+      "budgets": {
+        "1024": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.140625,
+          "not_stopped_before": 220,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.43994140625,
+            "median": 0.4443359375,
+            "q25": 0.2314453125,
+            "q75": 0.67138671875
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 7.17578125,
+            "median": 6.16796875,
+            "q25": 2.634765625,
+            "q75": 9.810546875
+          },
+          "stopped_strictly_before": 36,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 450.5,
+            "median": 455.0,
+            "q25": 237.0,
+            "q75": 687.5
+          }
+        },
+        "2048": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.1875,
+          "not_stopped_before": 208,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.3154296875,
+            "median": 0.3046875,
+            "q25": 0.162841796875,
+            "q75": 0.478271484375
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 3.587890625,
+            "median": 3.083984375,
+            "q25": 1.3173828125,
+            "q75": 4.9052734375
+          },
+          "stopped_strictly_before": 48,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 646.0,
+            "median": 624.0,
+            "q25": 333.5,
+            "q75": 979.5
+          }
+        },
+        "4096": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.31640625,
+          "not_stopped_before": 175,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.5595703125,
+            "median": 0.322265625,
+            "q25": 0.13134765625,
+            "q75": 0.69091796875
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 1.7939453125,
+            "median": 1.5419921875,
+            "q25": 0.65869140625,
+            "q75": 2.45263671875
+          },
+          "stopped_strictly_before": 81,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 2292.0,
+            "median": 1320.0,
+            "q25": 538.0,
+            "q75": 2830.0
+          }
+        }
+      },
+      "censored_at_horizon": 23,
+      "denominator": 256,
+      "finite_stops": 233,
+      "horizon_rows": 16384,
+      "interpretation": "Descriptive; noncrossings stay censored, never replaced by horizon as a stop",
+      "stopping_rows_conditional_on_finite": {
+        "IQR": 7348.0,
+        "median": 6316.0,
+        "q25": 2698.0,
+        "q75": 10046.0
+      }
+    },
+    "second_order|odd_scale_adaptive|plugin|0.01": {
+      "budgets": {
+        "1024": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.03125,
+          "not_stopped_before": 248,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.4775390625,
+            "median": 0.5771484375,
+            "q25": 0.3701171875,
+            "q75": 0.84765625
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 6.0595703125,
+            "median": 8.328125,
+            "q25": 5.40673828125,
+            "q75": 11.46630859375
+          },
+          "stopped_strictly_before": 8,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 489.0,
+            "median": 591.0,
+            "q25": 379.0,
+            "q75": 868.0
+          }
+        },
+        "2048": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.0546875,
+          "not_stopped_before": 242,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.48046875,
+            "median": 0.4443359375,
+            "q25": 0.244384765625,
+            "q75": 0.724853515625
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 3.02978515625,
+            "median": 4.1640625,
+            "q25": 2.703369140625,
+            "q75": 5.733154296875
+          },
+          "stopped_strictly_before": 14,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 984.0,
+            "median": 910.0,
+            "q25": 500.5,
+            "q75": 1484.5
+          }
+        },
+        "4096": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.125,
+          "not_stopped_before": 224,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.5450439453125,
+            "median": 0.61181640625,
+            "q25": 0.2716064453125,
+            "q75": 0.816650390625
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 1.514892578125,
+            "median": 2.08203125,
+            "q25": 1.3516845703125,
+            "q75": 2.8665771484375
+          },
+          "stopped_strictly_before": 32,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 2232.5,
+            "median": 2506.0,
+            "q25": 1112.5,
+            "q75": 3345.0
+          }
+        }
+      },
+      "censored_at_horizon": 50,
+      "denominator": 256,
+      "finite_stops": 206,
+      "horizon_rows": 16384,
+      "interpretation": "Descriptive; noncrossings stay censored, never replaced by horizon as a stop",
+      "stopping_rows_conditional_on_finite": {
+        "IQR": 6205.0,
+        "median": 8528.0,
+        "q25": 5536.5,
+        "q75": 11741.5
+      }
+    },
+    "second_order|odd_scale_adaptive|plugin|0.05": {
+      "budgets": {
+        "1024": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.1015625,
+          "not_stopped_before": 230,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.4091796875,
+            "median": 0.380859375,
+            "q25": 0.197265625,
+            "q75": 0.6064453125
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 6.5146484375,
+            "median": 6.0380859375,
+            "q25": 3.18994140625,
+            "q75": 9.70458984375
+          },
+          "stopped_strictly_before": 26,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 419.0,
+            "median": 390.0,
+            "q25": 202.0,
+            "q75": 621.0
+          }
+        },
+        "2048": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.1484375,
+          "not_stopped_before": 218,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.443115234375,
+            "median": 0.291015625,
+            "q25": 0.129638671875,
+            "q75": 0.57275390625
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 3.25732421875,
+            "median": 3.01904296875,
+            "q25": 1.594970703125,
+            "q75": 4.852294921875
+          },
+          "stopped_strictly_before": 38,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 907.5,
+            "median": 596.0,
+            "q25": 265.5,
+            "q75": 1173.0
+          }
+        },
+        "4096": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.2734375,
+          "not_stopped_before": 186,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.537841796875,
+            "median": 0.4453125,
+            "q25": 0.1314697265625,
+            "q75": 0.6693115234375
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 1.628662109375,
+            "median": 1.509521484375,
+            "q25": 0.7974853515625,
+            "q75": 2.4261474609375
+          },
+          "stopped_strictly_before": 70,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 2203.0,
+            "median": 1824.0,
+            "q25": 538.5,
+            "q75": 2741.5
+          }
+        }
+      },
+      "censored_at_horizon": 20,
+      "denominator": 256,
+      "finite_stops": 236,
+      "horizon_rows": 16384,
+      "interpretation": "Descriptive; noncrossings stay censored, never replaced by horizon as a stop",
+      "stopping_rows_conditional_on_finite": {
+        "IQR": 6671.0,
+        "median": 6183.0,
+        "q25": 3266.5,
+        "q75": 9937.5
+      }
+    },
+    "second_order|raw|ons_gain|0.01": {
+      "budgets": {
+        "1024": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.0078125,
+          "not_stopped_before": 254,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.0126953125,
+            "median": 0.9169921875,
+            "q25": 0.91064453125,
+            "q75": 0.92333984375
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 5.7900390625,
+            "median": 7.6513671875,
+            "q25": 4.8408203125,
+            "q75": 10.630859375
+          },
+          "stopped_strictly_before": 2,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 13.0,
+            "median": 939.0,
+            "q25": 932.5,
+            "q75": 945.5
+          }
+        },
+        "2048": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.04296875,
+          "not_stopped_before": 245,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.251953125,
+            "median": 0.7490234375,
+            "q25": 0.5986328125,
+            "q75": 0.8505859375
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 2.89501953125,
+            "median": 3.82568359375,
+            "q25": 2.42041015625,
+            "q75": 5.3154296875
+          },
+          "stopped_strictly_before": 11,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 516.0,
+            "median": 1534.0,
+            "q25": 1226.0,
+            "q75": 1742.0
+          }
+        },
+        "4096": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.17578125,
+          "not_stopped_before": 211,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.34130859375,
+            "median": 0.67333984375,
+            "q25": 0.52392578125,
+            "q75": 0.865234375
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 1.447509765625,
+            "median": 1.912841796875,
+            "q25": 1.210205078125,
+            "q75": 2.65771484375
+          },
+          "stopped_strictly_before": 45,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 1398.0,
+            "median": 2758.0,
+            "q25": 2146.0,
+            "q75": 3544.0
+          }
+        }
+      },
+      "censored_at_horizon": 32,
+      "denominator": 256,
+      "finite_stops": 224,
+      "horizon_rows": 16384,
+      "interpretation": "Descriptive; noncrossings stay censored, never replaced by horizon as a stop",
+      "stopping_rows_conditional_on_finite": {
+        "IQR": 5929.0,
+        "median": 7835.0,
+        "q25": 4957.0,
+        "q75": 10886.0
+      }
+    },
+    "second_order|raw|ons_gain|0.05": {
+      "budgets": {
+        "1024": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.11328125,
+          "not_stopped_before": 227,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.388671875,
+            "median": 0.748046875,
+            "q25": 0.455078125,
+            "q75": 0.84375
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 5.6181640625,
+            "median": 4.986328125,
+            "q25": 2.294921875,
+            "q75": 7.9130859375
+          },
+          "stopped_strictly_before": 29,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 398.0,
+            "median": 766.0,
+            "q25": 466.0,
+            "q75": 864.0
+          }
+        },
+        "2048": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.2109375,
+          "not_stopped_before": 202,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.297119140625,
+            "median": 0.4892578125,
+            "q25": 0.3681640625,
+            "q75": 0.665283203125
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 2.80908203125,
+            "median": 2.4931640625,
+            "q25": 1.1474609375,
+            "q75": 3.95654296875
+          },
+          "stopped_strictly_before": 54,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 608.5,
+            "median": 1002.0,
+            "q25": 754.0,
+            "q75": 1362.5
+          }
+        },
+        "4096": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.37890625,
+          "not_stopped_before": 159,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.4619140625,
+            "median": 0.44189453125,
+            "q25": 0.2333984375,
+            "q75": 0.6953125
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 1.404541015625,
+            "median": 1.24658203125,
+            "q25": 0.57373046875,
+            "q75": 1.978271484375
+          },
+          "stopped_strictly_before": 97,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 1892.0,
+            "median": 1810.0,
+            "q25": 956.0,
+            "q75": 2848.0
+          }
+        }
+      },
+      "censored_at_horizon": 13,
+      "denominator": 256,
+      "finite_stops": 243,
+      "horizon_rows": 16384,
+      "interpretation": "Descriptive; noncrossings stay censored, never replaced by horizon as a stop",
+      "stopping_rows_conditional_on_finite": {
+        "IQR": 5753.0,
+        "median": 5106.0,
+        "q25": 2350.0,
+        "q75": 8103.0
+      }
+    },
+    "second_order|raw|plugin|0.01": {
+      "budgets": {
+        "1024": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.015625,
+          "not_stopped_before": 252,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.20166015625,
+            "median": 0.791015625,
+            "q25": 0.65185546875,
+            "q75": 0.853515625
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 5.5390625,
+            "median": 7.873046875,
+            "q25": 4.9716796875,
+            "q75": 10.5107421875
+          },
+          "stopped_strictly_before": 4,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 206.5,
+            "median": 810.0,
+            "q25": 667.5,
+            "q75": 874.0
+          }
+        },
+        "2048": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.0546875,
+          "not_stopped_before": 242,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.321044921875,
+            "median": 0.65380859375,
+            "q25": 0.4755859375,
+            "q75": 0.796630859375
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 2.76953125,
+            "median": 3.9365234375,
+            "q25": 2.48583984375,
+            "q75": 5.25537109375
+          },
+          "stopped_strictly_before": 14,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 657.5,
+            "median": 1339.0,
+            "q25": 974.0,
+            "q75": 1631.5
+          }
+        },
+        "4096": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.140625,
+          "not_stopped_before": 220,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.378662109375,
+            "median": 0.556640625,
+            "q25": 0.3861083984375,
+            "q75": 0.7647705078125
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 1.384765625,
+            "median": 1.96826171875,
+            "q25": 1.242919921875,
+            "q75": 2.627685546875
+          },
+          "stopped_strictly_before": 36,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 1551.0,
+            "median": 2280.0,
+            "q25": 1581.5,
+            "q75": 3132.5
+          }
+        }
+      },
+      "censored_at_horizon": 41,
+      "denominator": 256,
+      "finite_stops": 215,
+      "horizon_rows": 16384,
+      "interpretation": "Descriptive; noncrossings stay censored, never replaced by horizon as a stop",
+      "stopping_rows_conditional_on_finite": {
+        "IQR": 5672.0,
+        "median": 8062.0,
+        "q25": 5091.0,
+        "q75": 10763.0
+      }
+    },
+    "second_order|raw|plugin|0.05": {
+      "budgets": {
+        "1024": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.1015625,
+          "not_stopped_before": 230,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.2978515625,
+            "median": 0.5791015625,
+            "q25": 0.40869140625,
+            "q75": 0.70654296875
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 6.3583984375,
+            "median": 5.6904296875,
+            "q25": 2.791015625,
+            "q75": 9.1494140625
+          },
+          "stopped_strictly_before": 26,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 305.0,
+            "median": 593.0,
+            "q25": 418.5,
+            "q75": 723.5
+          }
+        },
+        "2048": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.18359375,
+          "not_stopped_before": 209,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.4130859375,
+            "median": 0.41015625,
+            "q25": 0.25537109375,
+            "q75": 0.66845703125
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 3.17919921875,
+            "median": 2.84521484375,
+            "q25": 1.3955078125,
+            "q75": 4.57470703125
+          },
+          "stopped_strictly_before": 47,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 846.0,
+            "median": 840.0,
+            "q25": 523.0,
+            "q75": 1369.0
+          }
+        },
+        "4096": {
+          "equal_to_budget": 0,
+          "fraction_stopped_before": 0.34375,
+          "not_stopped_before": 168,
+          "stop_over_budget_conditional_before_budget": {
+            "IQR": 0.52783203125,
+            "median": 0.4462890625,
+            "q25": 0.200439453125,
+            "q75": 0.728271484375
+          },
+          "stop_over_budget_conditional_on_finite": {
+            "IQR": 1.589599609375,
+            "median": 1.422607421875,
+            "q25": 0.69775390625,
+            "q75": 2.287353515625
+          },
+          "stopped_strictly_before": 88,
+          "stopping_rows_conditional_before_budget": {
+            "IQR": 2162.0,
+            "median": 1828.0,
+            "q25": 821.0,
+            "q75": 2983.0
+          }
+        }
+      },
+      "censored_at_horizon": 8,
+      "denominator": 256,
+      "finite_stops": 248,
+      "horizon_rows": 16384,
+      "interpretation": "Descriptive; noncrossings stay censored, never replaced by horizon as a stop",
+      "stopping_rows_conditional_on_finite": {
+        "IQR": 6511.0,
+        "median": 5827.0,
+        "q25": 2858.0,
+        "q75": 9369.0
+      }
+    }
+  },
+  "scope": "Stored v0.3.1 positive cases only, frozen witnesses, no fits/simulations",
+  "source_checkpoint_sha256": "92b8d254d3467545af55fbed6755d1649496bbe4a8776e0a348f227c56402451"
+}

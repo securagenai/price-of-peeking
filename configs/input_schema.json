@@ -1,0 +1,1250 @@
+{
+  "pqm4_fixed": {
+    "files": {
+      "mult_a": {
+        "0": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_a_0.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "1": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_a_1.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "10": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_a_10.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "11": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_a_11.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "12": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_a_12.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "13": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_a_13.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "14": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_a_14.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "15": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_a_15.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "16": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_a_16.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "17": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_a_17.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "18": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_a_18.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "19": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_a_19.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "2": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_a_2.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "3": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_a_3.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "4": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_a_4.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "5": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_a_5.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "6": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_a_6.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "7": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_a_7.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "8": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_a_8.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "9": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_a_9.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        }
+      },
+      "mult_b": {
+        "0": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_b_0.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "1": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_b_1.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "10": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_b_10.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "11": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_b_11.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "12": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_b_12.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "13": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_b_13.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "14": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_b_14.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "15": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_b_15.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "16": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_b_16.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "17": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_b_17.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "18": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_b_18.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "19": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_b_19.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "2": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_b_2.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "3": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_b_3.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "4": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_b_4.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "5": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_b_5.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "6": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_b_6.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "7": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_b_7.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "8": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_b_8.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "9": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/metadata/mult_b_9.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        }
+      },
+      "traces": {
+        "0": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/leakages/traces_0.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "1": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/leakages/traces_1.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "10": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/leakages/traces_10.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "11": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/leakages/traces_11.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "12": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/leakages/traces_12.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "13": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/leakages/traces_13.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "14": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/leakages/traces_14.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "15": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/leakages/traces_15.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "16": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/leakages/traces_16.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "17": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/leakages/traces_17.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "18": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/leakages/traces_18.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "19": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/leakages/traces_19.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "2": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/leakages/traces_2.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "3": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/leakages/traces_3.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "4": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/leakages/traces_4.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "5": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/leakages/traces_5.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "6": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/leakages/traces_6.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "7": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/leakages/traces_7.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "8": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/leakages/traces_8.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "9": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/fixed_key/leakages/traces_9.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        }
+      }
+    },
+    "implementation": "pqm4",
+    "samples": 20000
+  },
+  "pqm4_variable": {
+    "files": {
+      "mult_a": {
+        "0": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/metadata/mult_a_0.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "1": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/metadata/mult_a_1.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "2": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/metadata/mult_a_2.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "3": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/metadata/mult_a_3.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "4": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/metadata/mult_a_4.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "5": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/metadata/mult_a_5.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "6": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/metadata/mult_a_6.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "7": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/metadata/mult_a_7.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "8": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/metadata/mult_a_8.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "9": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/metadata/mult_a_9.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        }
+      },
+      "mult_b": {
+        "0": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/metadata/mult_b_0.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "1": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/metadata/mult_b_1.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "2": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/metadata/mult_b_2.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "3": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/metadata/mult_b_3.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "4": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/metadata/mult_b_4.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "5": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/metadata/mult_b_5.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "6": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/metadata/mult_b_6.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "7": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/metadata/mult_b_7.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "8": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/metadata/mult_b_8.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        },
+        "9": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/metadata/mult_b_9.npy",
+          "shape": [
+            10000,
+            256
+          ]
+        }
+      },
+      "traces": {
+        "0": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/leakages/traces_0.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "1": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/leakages/traces_1.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "2": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/leakages/traces_2.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "3": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/leakages/traces_3.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "4": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/leakages/traces_4.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "5": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/leakages/traces_5.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "6": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/leakages/traces_6.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "7": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/leakages/traces_7.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "8": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/leakages/traces_8.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        },
+        "9": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/pqm4/variable_key/leakages/traces_9.npy",
+          "shape": [
+            10000,
+            20000
+          ]
+        }
+      }
+    },
+    "implementation": "pqm4",
+    "samples": 20000
+  },
+  "ref_fixed": {
+    "files": {
+      "mult_a": {
+        "0": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/fixed_key/metadata/mult_a_0.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "1": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/fixed_key/metadata/mult_a_1.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "2": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/fixed_key/metadata/mult_a_2.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "3": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/fixed_key/metadata/mult_a_3.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "4": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/fixed_key/metadata/mult_a_4.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "5": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/fixed_key/metadata/mult_a_5.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "6": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/fixed_key/metadata/mult_a_6.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "7": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/fixed_key/metadata/mult_a_7.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "8": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/fixed_key/metadata/mult_a_8.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "9": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/fixed_key/metadata/mult_a_9.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        }
+      },
+      "mult_b": {
+        "0": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/fixed_key/metadata/mult_b_0.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "1": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/fixed_key/metadata/mult_b_1.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "2": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/fixed_key/metadata/mult_b_2.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "3": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/fixed_key/metadata/mult_b_3.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "4": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/fixed_key/metadata/mult_b_4.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "5": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/fixed_key/metadata/mult_b_5.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "6": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/fixed_key/metadata/mult_b_6.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "7": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/fixed_key/metadata/mult_b_7.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "8": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/fixed_key/metadata/mult_b_8.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "9": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/fixed_key/metadata/mult_b_9.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        }
+      },
+      "traces": {
+        "0": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/ref/fixed_key/leakages/traces_0.npy",
+          "shape": [
+            10000,
+            13000
+          ]
+        },
+        "1": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/ref/fixed_key/leakages/traces_1.npy",
+          "shape": [
+            10000,
+            13000
+          ]
+        },
+        "2": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/ref/fixed_key/leakages/traces_2.npy",
+          "shape": [
+            10000,
+            13000
+          ]
+        },
+        "3": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/ref/fixed_key/leakages/traces_3.npy",
+          "shape": [
+            10000,
+            13000
+          ]
+        },
+        "4": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/ref/fixed_key/leakages/traces_4.npy",
+          "shape": [
+            10000,
+            13000
+          ]
+        },
+        "5": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/ref/fixed_key/leakages/traces_5.npy",
+          "shape": [
+            10000,
+            13000
+          ]
+        },
+        "6": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/ref/fixed_key/leakages/traces_6.npy",
+          "shape": [
+            10000,
+            13000
+          ]
+        },
+        "7": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/ref/fixed_key/leakages/traces_7.npy",
+          "shape": [
+            10000,
+            13000
+          ]
+        },
+        "8": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/ref/fixed_key/leakages/traces_8.npy",
+          "shape": [
+            10000,
+            13000
+          ]
+        },
+        "9": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/ref/fixed_key/leakages/traces_9.npy",
+          "shape": [
+            10000,
+            13000
+          ]
+        }
+      }
+    },
+    "implementation": "ref",
+    "samples": 13000
+  },
+  "ref_variable": {
+    "files": {
+      "mult_a": {
+        "0": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/variable_key/metadata/mult_a_0.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "1": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/variable_key/metadata/mult_a_1.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "2": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/variable_key/metadata/mult_a_2.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "3": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/variable_key/metadata/mult_a_3.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "4": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/variable_key/metadata/mult_a_4.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "5": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/variable_key/metadata/mult_a_5.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "6": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/variable_key/metadata/mult_a_6.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "7": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/variable_key/metadata/mult_a_7.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "8": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/variable_key/metadata/mult_a_8.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "9": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/variable_key/metadata/mult_a_9.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        }
+      },
+      "mult_b": {
+        "0": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/variable_key/metadata/mult_b_0.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "1": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/variable_key/metadata/mult_b_1.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "2": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/variable_key/metadata/mult_b_2.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "3": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/variable_key/metadata/mult_b_3.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "4": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/variable_key/metadata/mult_b_4.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "5": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/variable_key/metadata/mult_b_5.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "6": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/variable_key/metadata/mult_b_6.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "7": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/variable_key/metadata/mult_b_7.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "8": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/variable_key/metadata/mult_b_8.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        },
+        "9": {
+          "dtype": "uint8",
+          "relative_path": "pqm4-ref/ref/variable_key/metadata/mult_b_9.npy",
+          "shape": [
+            10000,
+            512
+          ]
+        }
+      },
+      "traces": {
+        "0": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/ref/variable_key/leakages/traces_0.npy",
+          "shape": [
+            10000,
+            13000
+          ]
+        },
+        "1": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/ref/variable_key/leakages/traces_1.npy",
+          "shape": [
+            10000,
+            13000
+          ]
+        },
+        "2": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/ref/variable_key/leakages/traces_2.npy",
+          "shape": [
+            10000,
+            13000
+          ]
+        },
+        "3": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/ref/variable_key/leakages/traces_3.npy",
+          "shape": [
+            10000,
+            13000
+          ]
+        },
+        "4": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/ref/variable_key/leakages/traces_4.npy",
+          "shape": [
+            10000,
+            13000
+          ]
+        },
+        "5": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/ref/variable_key/leakages/traces_5.npy",
+          "shape": [
+            10000,
+            13000
+          ]
+        },
+        "6": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/ref/variable_key/leakages/traces_6.npy",
+          "shape": [
+            10000,
+            13000
+          ]
+        },
+        "7": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/ref/variable_key/leakages/traces_7.npy",
+          "shape": [
+            10000,
+            13000
+          ]
+        },
+        "8": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/ref/variable_key/leakages/traces_8.npy",
+          "shape": [
+            10000,
+            13000
+          ]
+        },
+        "9": {
+          "dtype": "int16",
+          "relative_path": "pqm4-ref/ref/variable_key/leakages/traces_9.npy",
+          "shape": [
+            10000,
+            13000
+          ]
+        }
+      }
+    },
+    "implementation": "ref",
+    "samples": 13000
+  }
+}

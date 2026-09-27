@@ -1,0 +1,352 @@
+{
+  "categories": {
+    "followup": [
+      "followup"
+    ],
+    "natural_label_descriptive": [
+      "real",
+      "matched",
+      "savings"
+    ],
+    "real_designed_null": [
+      "real",
+      "gate",
+      "secondary"
+    ],
+    "synthetic": [
+      "synthetic",
+      "syn_prediction",
+      "syn_moments",
+      "syn_flags",
+      "historical_extension",
+      "historical_method_c_correction"
+    ]
+  },
+  "dependency_roots": [
+    "scripts/regenerate_assets_derived.py",
+    "scripts/regenerate_summary_macros_derived.py",
+    "scripts/regenerate_followup_macros_derived.py",
+    "scripts/run_experiments_derived.py",
+    "scripts/rerun_extension_derived.py"
+  ],
+  "distinction": "Verified saved-result regeneration; fresh experiments supported by derived portable code but not executed; historical chronology evidence private, new manifest is not historical proof.",
+  "figures": {
+    "F1_synthetic.pdf": {
+      "source_ids": [
+        "synthetic"
+      ],
+      "verification": "exact plotted numerical data"
+    },
+    "F2_ratios.pdf": {
+      "source_ids": [
+        "synthetic",
+        "matched",
+        "real"
+      ],
+      "verification": "exact plotted numerical data"
+    },
+    "F3_nulls.pdf": {
+      "source_ids": [
+        "real"
+      ],
+      "verification": "exact plotted numerical data"
+    },
+    "F4_natural.pdf": {
+      "source_ids": [
+        "real"
+      ],
+      "verification": "exact plotted numerical data"
+    },
+    "F5_savings.pdf": {
+      "source_ids": [
+        "savings"
+      ],
+      "verification": "exact plotted numerical data"
+    },
+    "F6_secondary.pdf": {
+      "source_ids": [
+        "secondary"
+      ],
+      "verification": "exact plotted numerical data"
+    },
+    "F7_prediction.pdf": {
+      "source_ids": [
+        "syn_prediction"
+      ],
+      "verification": "exact plotted numerical data"
+    }
+  },
+  "publication_v2_reporting": {
+    "change": "category-label wrapping only; empirical results unchanged",
+    "historical_mapping": "Existing v4 producer/source entries retained as historical, not relabeled",
+    "parent_renderer_sha256": "bf58ce8b6cdfb1b988980ee63170c42c23f3e7ba4d4aefc29891948ee59ee077",
+    "reference_renderer_sha256": "eb43f4648ccbbb4edcef4d181c738ef768986738387c09700c9fae80818468f9",
+    "reference_zip_sha256": "12f2960776c1e4c3b2ff03ae538bcad53362d8869d550e78a35368ef845feec4",
+    "renderer": "scripts/regenerate_assets_publication_v2.py",
+    "renderer_sha256": "eb43f4648ccbbb4edcef4d181c738ef768986738387c09700c9fae80818468f9"
+  },
+  "sources": {
+    "cfg": {
+      "artifact_file": "results/cfg.json",
+      "artifact_sha256": "3e07ae85572879a8a5d87c791406b4b8d302f010f16ccc03c6f7c1db06fbf9fc",
+      "derivation": "Numerical aggregates preserved; only unused machine/identity/path/model fields excluded where applicable",
+      "source_id": "runs/20260926T153229Z-real-background-v1_1-design/CONFIG.json",
+      "source_sha256": "3e07ae85572879a8a5d87c791406b4b8d302f010f16ccc03c6f7c1db06fbf9fc"
+    },
+    "compute": {
+      "artifact_file": "results/compute.json",
+      "artifact_sha256": "48e1a230be5cefdf198cfbdf913bd1c643b8f9a2835c7196f3f5c82ea3912689",
+      "derivation": "Numerical aggregates preserved; only unused machine/identity/path/model fields excluded where applicable",
+      "source_id": "runs/20260926T153229Z-real-background-v1_1-design/execution/DRIVER_COMPUTE_ACCOUNTING.json",
+      "source_sha256": "48e1a230be5cefdf198cfbdf913bd1c643b8f9a2835c7196f3f5c82ea3912689"
+    },
+    "followup": {
+      "artifact_file": "results/followup.json",
+      "artifact_sha256": "982ce465244514373da286e059693e343933fa2cae5c7d496a001edd3275ee57",
+      "derivation": "byte-identical aggregate follow-up",
+      "source_id": "runs/20260926T185700Z-followup-sensitivity-v1_1/FOLLOWUP_RESULTS.json",
+      "source_sha256": "982ce465244514373da286e059693e343933fa2cae5c7d496a001edd3275ee57"
+    },
+    "gate": {
+      "artifact_file": "results/gate.json",
+      "artifact_sha256": "8612f0353636e87e0a409b20c8c290b1d9357daa6511de337225227eb8b1d03c",
+      "derivation": "Numerical aggregates preserved; only unused machine/identity/path/model fields excluded where applicable",
+      "source_id": "runs/20260926T153229Z-real-background-v1_1-design/execution/INTEGRITY_GATE.json",
+      "source_sha256": "8612f0353636e87e0a409b20c8c290b1d9357daa6511de337225227eb8b1d03c"
+    },
+    "historical_extension": {
+      "artifact_file": "results/historical_extension.json",
+      "artifact_sha256": "b000720cf768824230bf094bdfaa51ed1f2082b14cbf0771f75786aba129f6ca",
+      "derivation": "Byte-identical aggregate; appendix retained literal ONS/mixture record, not a main v4 comparison",
+      "source_id": "runs/20260926T095254Z-anytime-valid-extension-v02/SYNTHETIC_EXTENSION_RESULTS.json",
+      "source_sha256": "b000720cf768824230bf094bdfaa51ed1f2082b14cbf0771f75786aba129f6ca"
+    },
+    "historical_method_c_correction": {
+      "artifact_file": "results/historical_method_c_correction.json",
+      "artifact_sha256": "545dbb811d7fd724cb2e4149fe2b8ef940ec701eaa6de34529e8124abb3fe5b0",
+      "derivation": "Byte-identical aggregate reporting correction retained with prior evidence",
+      "source_id": "runs/20260926T095254Z-anytime-valid-extension-v02/METHOD_C_REPORTING_ADDENDUM.json",
+      "source_sha256": "545dbb811d7fd724cb2e4149fe2b8ef940ec701eaa6de34529e8124abb3fe5b0"
+    },
+    "inventory": {
+      "artifact_file": "results/inventory.json",
+      "artifact_sha256": "7e18fdabd69b6ea8269e7c02bef813e328b12a00b0ccb682c82aee57cc7eb450",
+      "derivation": "Numerical aggregates preserved; only unused machine/identity/path/model fields excluded where applicable",
+      "source_id": "runs/20260926T153229Z-real-background-v1_1-design/INVENTORY.json",
+      "source_sha256": "c35c732bbc591d08941a2906a26884e78a76815b42b46223bb7ceff3fa9b8505"
+    },
+    "launches": {
+      "artifact_file": "results/launches.json",
+      "artifact_sha256": "38979a0652c504a65e8189c228b85dde37a9a2b01516cc3308c0d46f6bf8f6ae",
+      "derivation": "Numerical aggregates preserved; only unused machine/identity/path/model fields excluded where applicable",
+      "source_id": "runs/20260926T153229Z-real-background-v1_1-design/execution/DRIVER_LAUNCH_ATTEMPTS.json",
+      "source_sha256": "1c8006eac240b6d10f967d55f69b7edfc721ea1ba01087f15e492af2a20ab345"
+    },
+    "ledger": {
+      "artifact_file": "results/ledger.json",
+      "artifact_sha256": "6f5f2a06e3bc1cd59ddf41bd4cca07719619b35d5d1d2234be99c5ecc2dea974",
+      "derivation": "Numerical aggregates preserved; only unused machine/identity/path/model fields excluded where applicable",
+      "source_id": "runs/20260926T153229Z-real-background-v1_1-design/DATA_USAGE_LEDGER.json",
+      "source_sha256": "56ad28addc813d1ff8625243cd5f4bd69f388fb6e5f34d916746931ea28d3c37"
+    },
+    "matched": {
+      "artifact_file": "results/matched.json",
+      "artifact_sha256": "95d54ca2d8a706cbabc1685067c6e6f200477d325ac89db17468546f3e610083",
+      "derivation": "Numerical aggregates preserved; only unused machine/identity/path/model fields excluded where applicable",
+      "source_id": "runs/20260926T153229Z-real-background-v1_1-design/execution/MATCHED_GRID_COMPARISON.json",
+      "source_sha256": "95d54ca2d8a706cbabc1685067c6e6f200477d325ac89db17468546f3e610083"
+    },
+    "model_freeze": {
+      "artifact_file": "results/model_freeze.json",
+      "artifact_sha256": "e720476bf7e89df0c122f2ab45662826497085dbbd207c0b2b078d5c4a5ec412",
+      "derivation": "Numerical aggregates preserved; only unused machine/identity/path/model fields excluded where applicable",
+      "source_id": "runs/20260926T153229Z-real-background-v1_1-design/execution/MODEL_CONDITION_FREEZE.json",
+      "source_sha256": "a57cb1426e8bb0505e4c985e7cbc2f9a1606c0c075b73cbcd63337d600027f48"
+    },
+    "real": {
+      "artifact_file": "results/real.json",
+      "artifact_sha256": "a4a6f06e8b3aacf9a66ffa3e8cf718bb0766eac5c0f230cd0e87fc0fa1c48370",
+      "derivation": "Numerical aggregates preserved; only unused machine/identity/path/model fields excluded where applicable",
+      "source_id": "runs/20260926T153229Z-real-background-v1_1-design/execution/RESULTS.json",
+      "source_sha256": "a4a6f06e8b3aacf9a66ffa3e8cf718bb0766eac5c0f230cd0e87fc0fa1c48370"
+    },
+    "savings": {
+      "artifact_file": "results/savings.json",
+      "artifact_sha256": "8bd5ecb03ee88fcabcd0fdcff5a68b0ff1e5b0a1515a81b3037c8057cc05757e",
+      "derivation": "Numerical aggregates preserved; only unused machine/identity/path/model fields excluded where applicable",
+      "source_id": "runs/20260926T153229Z-real-background-v1_1-design/execution/SAVINGS_DESCRIPTIVE.json",
+      "source_sha256": "8bd5ecb03ee88fcabcd0fdcff5a68b0ff1e5b0a1515a81b3037c8057cc05757e"
+    },
+    "secondary": {
+      "artifact_file": "results/secondary.json",
+      "artifact_sha256": "dc6a4dba10552ef9072b61d0abfff8938c7d6b0920d609e551b10c3246bab2d5",
+      "derivation": "Numerical aggregates preserved; only unused machine/identity/path/model fields excluded where applicable",
+      "source_id": "runs/20260926T153229Z-real-background-v1_1-design/execution/SECONDARY_RESULTS.json",
+      "source_sha256": "dc6a4dba10552ef9072b61d0abfff8938c7d6b0920d609e551b10c3246bab2d5"
+    },
+    "syn_compute": {
+      "artifact_file": "results/syn_compute.json",
+      "artifact_sha256": "7020f96fe8bbf5d495e499e642346bbf84a4522e00bee61fac708488ca9c32ce",
+      "derivation": "Numerical aggregates preserved; only unused machine/identity/path/model fields excluded where applicable",
+      "source_id": "runs/20260926T111518Z-anytime-v031/COMPUTE_ACCOUNTING.json",
+      "source_sha256": "7020f96fe8bbf5d495e499e642346bbf84a4522e00bee61fac708488ca9c32ce"
+    },
+    "syn_config": {
+      "artifact_file": "results/syn_config.json",
+      "artifact_sha256": "0869523e3944b75b64ecec2524d824924412d6e7e390542da48ea13fafa5b1cd",
+      "derivation": "Numerical aggregates preserved; only unused machine/identity/path/model fields excluded where applicable",
+      "source_id": "runs/20260926T111518Z-anytime-v031/FROZEN_CONFIG.json",
+      "source_sha256": "0869523e3944b75b64ecec2524d824924412d6e7e390542da48ea13fafa5b1cd"
+    },
+    "syn_flags": {
+      "artifact_file": "results/syn_flags.json",
+      "artifact_sha256": "2d805b8d4a1ced6624ed0d851075926d03992a0c963ccb8f2a8a82ed863ccf2f",
+      "derivation": "Numerical aggregates preserved; only unused machine/identity/path/model fields excluded where applicable",
+      "source_id": "runs/20260926T111518Z-anytime-v031/NULL_POINTWISE_FLAGS.json",
+      "source_sha256": "2d805b8d4a1ced6624ed0d851075926d03992a0c963ccb8f2a8a82ed863ccf2f"
+    },
+    "syn_moments": {
+      "artifact_file": "results/syn_moments.json",
+      "artifact_sha256": "3bc0ee51bd4ef1c4ef950791c8891938873b74aae49bb5d105ad9cd5b253b1e2",
+      "derivation": "Numerical aggregates preserved; only unused machine/identity/path/model fields excluded where applicable",
+      "source_id": "runs/20260926T111518Z-anytime-v031/TERMINAL_PREDICTIONS.json",
+      "source_sha256": "3bc0ee51bd4ef1c4ef950791c8891938873b74aae49bb5d105ad9cd5b253b1e2"
+    },
+    "syn_prediction": {
+      "artifact_file": "results/syn_prediction.json",
+      "artifact_sha256": "191504b6b5459d7fc7c61b4d507f8e0438fc939c466e6b9696cc40e2ac1e1c17",
+      "derivation": "Numerical aggregates preserved; only unused machine/identity/path/model fields excluded where applicable",
+      "source_id": "runs/20260926T111518Z-anytime-v031/PREDICTION_COMPARISON.json",
+      "source_sha256": "191504b6b5459d7fc7c61b4d507f8e0438fc939c466e6b9696cc40e2ac1e1c17"
+    },
+    "syn_savings": {
+      "artifact_file": "results/syn_savings.json",
+      "artifact_sha256": "052f7e4d58ab781eb585e144ecac84acf220c11d267bb60413e792f2950ac4b7",
+      "derivation": "Numerical aggregates preserved; only unused machine/identity/path/model fields excluded where applicable",
+      "source_id": "runs/20260926T153229Z-real-background-v1_1-design/SYNTHETIC_SAVINGS_DESCRIPTIVE.json",
+      "source_sha256": "052f7e4d58ab781eb585e144ecac84acf220c11d267bb60413e792f2950ac4b7"
+    },
+    "synthetic": {
+      "artifact_file": "results/synthetic.json",
+      "artifact_sha256": "f3faaab6dbebd920fb217988f113a627568ea034a582879053507f4517e11694",
+      "derivation": "Numerical aggregates preserved; only unused machine/identity/path/model fields excluded where applicable",
+      "source_id": "runs/20260926T111518Z-anytime-v031/MAIN_RESULTS.json",
+      "source_sha256": "f3faaab6dbebd920fb217988f113a627568ea034a582879053507f4517e11694"
+    },
+    "writing_gate": {
+      "artifact_file": "results/writing_gate.json",
+      "artifact_sha256": "1b9f09ecc5b1061d1f37940f089539ed402099bd55c8c4235a1812f87047da2f",
+      "derivation": "Numerical aggregates preserved; only unused machine/identity/path/model fields excluded where applicable",
+      "source_id": "runs/20260926T153229Z-real-background-v1_1-design/execution/WRITING_GATE.json",
+      "source_sha256": "25138b4c1e1ed3f4ba93186281188bb3b7cd328e02df3c97ae78225f5f904325"
+    }
+  },
+  "tables": {
+    "allocation.tex": {
+      "regeneration": "numeric tokens exact",
+      "scope": "empirical",
+      "source_ids": [
+        "ledger",
+        "inventory"
+      ]
+    },
+    "claims.tex": {
+      "regeneration": "protocol text only",
+      "scope": "qualitative protocol",
+      "source_ids": []
+    },
+    "compute.tex": {
+      "regeneration": "numeric tokens exact",
+      "scope": "empirical",
+      "source_ids": [
+        "compute",
+        "launches"
+      ]
+    },
+    "design.tex": {
+      "regeneration": "numeric tokens exact",
+      "scope": "empirical",
+      "source_ids": [
+        "cfg",
+        "syn_config",
+        "inventory"
+      ]
+    },
+    "followup.tex": {
+      "regeneration": "numeric tokens exact",
+      "scope": "empirical",
+      "source_ids": [
+        "followup"
+      ]
+    },
+    "gate.tex": {
+      "regeneration": "numeric tokens exact",
+      "scope": "empirical",
+      "source_ids": [
+        "gate"
+      ]
+    },
+    "gate_all.tex": {
+      "regeneration": "numeric tokens exact",
+      "scope": "empirical",
+      "source_ids": [
+        "gate"
+      ]
+    },
+    "natural.tex": {
+      "regeneration": "numeric tokens exact",
+      "scope": "empirical",
+      "source_ids": [
+        "real",
+        "matched"
+      ]
+    },
+    "natural_all.tex": {
+      "regeneration": "numeric tokens exact",
+      "scope": "empirical",
+      "source_ids": [
+        "real",
+        "matched"
+      ]
+    },
+    "null_backgrounds_all.tex": {
+      "regeneration": "numeric tokens exact",
+      "scope": "empirical",
+      "source_ids": [
+        "real"
+      ]
+    },
+    "savings_all.tex": {
+      "regeneration": "numeric tokens exact",
+      "scope": "empirical",
+      "source_ids": [
+        "savings"
+      ]
+    },
+    "secondary.tex": {
+      "regeneration": "numeric tokens exact",
+      "scope": "empirical",
+      "source_ids": [
+        "secondary"
+      ]
+    },
+    "synthetic_n.tex": {
+      "regeneration": "numeric tokens exact",
+      "scope": "empirical",
+      "source_ids": [
+        "synthetic",
+        "syn_config"
+      ]
+    },
+    "synthetic_null.tex": {
+      "regeneration": "numeric tokens exact",
+      "scope": "empirical",
+      "source_ids": [
+        "synthetic",
+        "syn_flags"
+      ]
+    }
+  },
+  "target": "v4",
+  "v4_archive_sha256": "5354ecc60437e7d4805436bc9a7b350a8c3651aa338b2421ca17d217fab77f6d"
+}

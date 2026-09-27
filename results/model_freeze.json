@@ -1,0 +1,561 @@
+{
+  "conditions": {
+    "0": {
+      "curves": {
+        "0": {
+          "N80_CI": "NOT_ESTIMATED",
+          "counts": [
+            16,
+            16,
+            16,
+            16,
+            16
+          ],
+          "denominator": 16,
+          "fraction": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "grid_N80": 256,
+          "interpolation": "NOT_PERFORMED",
+          "interval": "NOT_ASSIGNED_DEPENDENT_SEGMENTS",
+          "status": "AT_NMIN_BOUNDARY"
+        },
+        "1": {
+          "N80_CI": "NOT_ESTIMATED",
+          "counts": [
+            15,
+            16,
+            16,
+            16,
+            16
+          ],
+          "denominator": 16,
+          "fraction": [
+            0.9375,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "grid_N80": 256,
+          "interpolation": "NOT_PERFORMED",
+          "interval": "NOT_ASSIGNED_DEPENDENT_SEGMENTS",
+          "status": "AT_NMIN_BOUNDARY"
+        },
+        "16": {
+          "N80_CI": "NOT_ESTIMATED",
+          "counts": [
+            1,
+            1,
+            3,
+            3,
+            0
+          ],
+          "denominator": 16,
+          "fraction": [
+            0.0625,
+            0.0625,
+            0.1875,
+            0.1875,
+            0.0
+          ],
+          "grid_N80": null,
+          "interpolation": "NOT_PERFORMED",
+          "interval": "NOT_ASSIGNED_DEPENDENT_SEGMENTS",
+          "status": "RIGHT_CENSORED"
+        },
+        "2": {
+          "N80_CI": "NOT_ESTIMATED",
+          "counts": [
+            2,
+            6,
+            12,
+            16,
+            16
+          ],
+          "denominator": 16,
+          "fraction": [
+            0.125,
+            0.375,
+            0.75,
+            1.0,
+            1.0
+          ],
+          "grid_N80": 2048,
+          "interpolation": "NOT_PERFORMED",
+          "interval": "NOT_ASSIGNED_DEPENDENT_SEGMENTS",
+          "status": "FINITE_GRID"
+        },
+        "4": {
+          "N80_CI": "NOT_ESTIMATED",
+          "counts": [
+            2,
+            2,
+            6,
+            10,
+            13
+          ],
+          "denominator": 16,
+          "fraction": [
+            0.125,
+            0.125,
+            0.375,
+            0.625,
+            0.8125
+          ],
+          "grid_N80": 4096,
+          "interpolation": "NOT_PERFORMED",
+          "interval": "NOT_ASSIGNED_DEPENDENT_SEGMENTS",
+          "status": "FINITE_GRID"
+        },
+        "8": {
+          "N80_CI": "NOT_ESTIMATED",
+          "counts": [
+            1,
+            1,
+            1,
+            4,
+            4
+          ],
+          "denominator": 16,
+          "fraction": [
+            0.0625,
+            0.0625,
+            0.0625,
+            0.25,
+            0.25
+          ],
+          "grid_N80": null,
+          "interpolation": "NOT_PERFORMED",
+          "interval": "NOT_ASSIGNED_DEPENDENT_SEGMENTS",
+          "status": "RIGHT_CENSORED"
+        }
+      },
+      "multiplier": 2.0,
+      "pilot_grid_N80": 2048,
+      "status": "PILOT_PROXY_ONLY"
+    },
+    "1": {
+      "curves": {
+        "0": {
+          "N80_CI": "NOT_ESTIMATED",
+          "counts": [
+            16,
+            16,
+            16,
+            16,
+            16
+          ],
+          "denominator": 16,
+          "fraction": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "grid_N80": 256,
+          "interpolation": "NOT_PERFORMED",
+          "interval": "NOT_ASSIGNED_DEPENDENT_SEGMENTS",
+          "status": "AT_NMIN_BOUNDARY"
+        },
+        "1": {
+          "N80_CI": "NOT_ESTIMATED",
+          "counts": [
+            16,
+            16,
+            16,
+            16,
+            16
+          ],
+          "denominator": 16,
+          "fraction": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "grid_N80": 256,
+          "interpolation": "NOT_PERFORMED",
+          "interval": "NOT_ASSIGNED_DEPENDENT_SEGMENTS",
+          "status": "AT_NMIN_BOUNDARY"
+        },
+        "16": {
+          "N80_CI": "NOT_ESTIMATED",
+          "counts": [
+            1,
+            1,
+            3,
+            4,
+            8
+          ],
+          "denominator": 16,
+          "fraction": [
+            0.0625,
+            0.0625,
+            0.1875,
+            0.25,
+            0.5
+          ],
+          "grid_N80": null,
+          "interpolation": "NOT_PERFORMED",
+          "interval": "NOT_ASSIGNED_DEPENDENT_SEGMENTS",
+          "status": "RIGHT_CENSORED"
+        },
+        "2": {
+          "N80_CI": "NOT_ESTIMATED",
+          "counts": [
+            15,
+            16,
+            16,
+            16,
+            16
+          ],
+          "denominator": 16,
+          "fraction": [
+            0.9375,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "grid_N80": 256,
+          "interpolation": "NOT_PERFORMED",
+          "interval": "NOT_ASSIGNED_DEPENDENT_SEGMENTS",
+          "status": "AT_NMIN_BOUNDARY"
+        },
+        "4": {
+          "N80_CI": "NOT_ESTIMATED",
+          "counts": [
+            6,
+            10,
+            14,
+            16,
+            16
+          ],
+          "denominator": 16,
+          "fraction": [
+            0.375,
+            0.625,
+            0.875,
+            1.0,
+            1.0
+          ],
+          "grid_N80": 1024,
+          "interpolation": "NOT_PERFORMED",
+          "interval": "NOT_ASSIGNED_DEPENDENT_SEGMENTS",
+          "status": "FINITE_GRID"
+        },
+        "8": {
+          "N80_CI": "NOT_ESTIMATED",
+          "counts": [
+            1,
+            5,
+            9,
+            14,
+            16
+          ],
+          "denominator": 16,
+          "fraction": [
+            0.0625,
+            0.3125,
+            0.5625,
+            0.875,
+            1.0
+          ],
+          "grid_N80": 2048,
+          "interpolation": "NOT_PERFORMED",
+          "interval": "NOT_ASSIGNED_DEPENDENT_SEGMENTS",
+          "status": "FINITE_GRID"
+        }
+      },
+      "multiplier": 4.0,
+      "pilot_grid_N80": 1024,
+      "status": "PILOT_PROXY_ONLY"
+    },
+    "2": {
+      "curves": {
+        "0": {
+          "N80_CI": "NOT_ESTIMATED",
+          "counts": [
+            16,
+            16,
+            16,
+            16,
+            16
+          ],
+          "denominator": 16,
+          "fraction": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "grid_N80": 256,
+          "interpolation": "NOT_PERFORMED",
+          "interval": "NOT_ASSIGNED_DEPENDENT_SEGMENTS",
+          "status": "AT_NMIN_BOUNDARY"
+        },
+        "1": {
+          "N80_CI": "NOT_ESTIMATED",
+          "counts": [
+            15,
+            16,
+            16,
+            16,
+            16
+          ],
+          "denominator": 16,
+          "fraction": [
+            0.9375,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "grid_N80": 256,
+          "interpolation": "NOT_PERFORMED",
+          "interval": "NOT_ASSIGNED_DEPENDENT_SEGMENTS",
+          "status": "AT_NMIN_BOUNDARY"
+        },
+        "16": {
+          "N80_CI": "NOT_ESTIMATED",
+          "counts": [
+            0,
+            1,
+            2,
+            1,
+            8
+          ],
+          "denominator": 16,
+          "fraction": [
+            0.0,
+            0.0625,
+            0.125,
+            0.0625,
+            0.5
+          ],
+          "grid_N80": null,
+          "interpolation": "NOT_PERFORMED",
+          "interval": "NOT_ASSIGNED_DEPENDENT_SEGMENTS",
+          "status": "RIGHT_CENSORED"
+        },
+        "2": {
+          "N80_CI": "NOT_ESTIMATED",
+          "counts": [
+            11,
+            13,
+            16,
+            16,
+            16
+          ],
+          "denominator": 16,
+          "fraction": [
+            0.6875,
+            0.8125,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "grid_N80": 512,
+          "interpolation": "NOT_PERFORMED",
+          "interval": "NOT_ASSIGNED_DEPENDENT_SEGMENTS",
+          "status": "FINITE_GRID"
+        },
+        "4": {
+          "N80_CI": "NOT_ESTIMATED",
+          "counts": [
+            8,
+            10,
+            11,
+            15,
+            16
+          ],
+          "denominator": 16,
+          "fraction": [
+            0.5,
+            0.625,
+            0.6875,
+            0.9375,
+            1.0
+          ],
+          "grid_N80": 2048,
+          "interpolation": "NOT_PERFORMED",
+          "interval": "NOT_ASSIGNED_DEPENDENT_SEGMENTS",
+          "status": "FINITE_GRID"
+        },
+        "8": {
+          "N80_CI": "NOT_ESTIMATED",
+          "counts": [
+            3,
+            3,
+            3,
+            10,
+            14
+          ],
+          "denominator": 16,
+          "fraction": [
+            0.1875,
+            0.1875,
+            0.1875,
+            0.625,
+            0.875
+          ],
+          "grid_N80": 4096,
+          "interpolation": "NOT_PERFORMED",
+          "interval": "NOT_ASSIGNED_DEPENDENT_SEGMENTS",
+          "status": "FINITE_GRID"
+        }
+      },
+      "multiplier": 2.0,
+      "pilot_grid_N80": 512,
+      "status": "PILOT_PROXY_ONLY"
+    },
+    "3": {
+      "curves": {
+        "0": {
+          "N80_CI": "NOT_ESTIMATED",
+          "counts": [
+            16,
+            16,
+            16,
+            16,
+            16
+          ],
+          "denominator": 16,
+          "fraction": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "grid_N80": 256,
+          "interpolation": "NOT_PERFORMED",
+          "interval": "NOT_ASSIGNED_DEPENDENT_SEGMENTS",
+          "status": "AT_NMIN_BOUNDARY"
+        },
+        "1": {
+          "N80_CI": "NOT_ESTIMATED",
+          "counts": [
+            10,
+            11,
+            12,
+            15,
+            16
+          ],
+          "denominator": 16,
+          "fraction": [
+            0.625,
+            0.6875,
+            0.75,
+            0.9375,
+            1.0
+          ],
+          "grid_N80": 2048,
+          "interpolation": "NOT_PERFORMED",
+          "interval": "NOT_ASSIGNED_DEPENDENT_SEGMENTS",
+          "status": "FINITE_GRID"
+        },
+        "16": {
+          "N80_CI": "NOT_ESTIMATED",
+          "counts": [
+            1,
+            2,
+            1,
+            0,
+            0
+          ],
+          "denominator": 16,
+          "fraction": [
+            0.0625,
+            0.125,
+            0.0625,
+            0.0,
+            0.0
+          ],
+          "grid_N80": null,
+          "interpolation": "NOT_PERFORMED",
+          "interval": "NOT_ASSIGNED_DEPENDENT_SEGMENTS",
+          "status": "RIGHT_CENSORED"
+        },
+        "2": {
+          "N80_CI": "NOT_ESTIMATED",
+          "counts": [
+            4,
+            4,
+            4,
+            8,
+            9
+          ],
+          "denominator": 16,
+          "fraction": [
+            0.25,
+            0.25,
+            0.25,
+            0.5,
+            0.5625
+          ],
+          "grid_N80": null,
+          "interpolation": "NOT_PERFORMED",
+          "interval": "NOT_ASSIGNED_DEPENDENT_SEGMENTS",
+          "status": "RIGHT_CENSORED"
+        },
+        "4": {
+          "N80_CI": "NOT_ESTIMATED",
+          "counts": [
+            4,
+            2,
+            4,
+            5,
+            5
+          ],
+          "denominator": 16,
+          "fraction": [
+            0.25,
+            0.125,
+            0.25,
+            0.3125,
+            0.3125
+          ],
+          "grid_N80": null,
+          "interpolation": "NOT_PERFORMED",
+          "interval": "NOT_ASSIGNED_DEPENDENT_SEGMENTS",
+          "status": "RIGHT_CENSORED"
+        },
+        "8": {
+          "N80_CI": "NOT_ESTIMATED",
+          "counts": [
+            1,
+            0,
+            1,
+            3,
+            2
+          ],
+          "denominator": 16,
+          "fraction": [
+            0.0625,
+            0.0,
+            0.0625,
+            0.1875,
+            0.125
+          ],
+          "grid_N80": null,
+          "interpolation": "NOT_PERFORMED",
+          "interval": "NOT_ASSIGNED_DEPENDENT_SEGMENTS",
+          "status": "RIGHT_CENSORED"
+        }
+      },
+      "multiplier": 1.0,
+      "pilot_grid_N80": 2048,
+      "status": "PILOT_PROXY_ONLY"
+    }
+  },
+  "scope": "condition summaries only; learned models not distributed"
+}

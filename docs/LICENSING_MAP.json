@@ -1,0 +1,272 @@
+{
+  "approval": "Explicit company instruction for this local publication candidate; full record retained privately",
+  "excluded_rights": [
+    "external dataset and firmware",
+    "third-party packages, papers, algorithms and trademarks",
+    "any rights not held or licensed by the company"
+  ],
+  "files": [
+    {
+      "file": ".gitignore",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "LICENSE.md",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "LICENSES/Apache-2.0.txt",
+      "license_scope": "UPSTREAM_LICENSE_TEXT_UNMODIFIED"
+    },
+    {
+      "file": "LICENSES/CC-BY-4.0.txt",
+      "license_scope": "UPSTREAM_LICENSE_TEXT_UNMODIFIED"
+    },
+    {
+      "file": "NOTICE",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "README.md",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "configs/historical_extension.json",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "configs/input_schema.json",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "configs/integrity_gate.json",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "configs/real.json",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "configs/rows.json",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "configs/synthetic.json",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "docs/EVIDENCE_MAP.json",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "docs/PROTOCOL.md",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "docs/REPORTING_UPDATE_v5.md",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "docs/REPRODUCIBILITY.md",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "docs/RESULT_SOURCES.json",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "requirements.txt",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "results/cfg.json",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "results/compute.json",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "results/followup.json",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "results/gate.json",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "results/historical_extension.json",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "results/historical_method_c_correction.json",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "results/inventory.json",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "results/launches.json",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "results/ledger.json",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "results/matched.json",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "results/model_freeze.json",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "results/real.json",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "results/savings.json",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "results/secondary.json",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "results/syn_compute.json",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "results/syn_config.json",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "results/syn_flags.json",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "results/syn_moments.json",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "results/syn_prediction.json",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "results/syn_savings.json",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "results/synthetic.json",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "results/writing_gate.json",
+      "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
+    },
+    {
+      "file": "scripts/__init__.py",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "scripts/core/__init__.py",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "scripts/core/amendment.py",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "scripts/core/anytime/__init__.py",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "scripts/core/anytime/common.py",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "scripts/core/anytime/extension_v02.py",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "scripts/core/anytime/processes.py",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "scripts/core/anytime/witnesses.py",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "scripts/core/followup.py",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "scripts/core/legacy.py",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "scripts/core/real.py",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "scripts/core/synthetic.py",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "scripts/core/synthetic_base.py",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "scripts/regenerate_assets_derived.py",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "scripts/regenerate_followup_macros_derived.py",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "scripts/regenerate_summary_macros_derived.py",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "scripts/rerun_extension_derived.py",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "scripts/run_experiments_derived.py",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "scripts/verify_dataset_archive.py",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "tests/__init__.py",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "tests/test_essential.py",
+      "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "docs/LICENSING_MAP.json",
+      "license_scope": "CC-BY-4.0 (eligible original documentation)"
+    },
+    {
+      "file": "MANIFEST.sha256",
+      "license_scope": "CC-BY-4.0 (original presentation only; hashes/facts not claimed as owned)"
+    },
+    {
+      "file": "scripts/regenerate_assets_publication_v2.py",
+      "license_scope": "Apache-2.0"
+    }
+  ],
+  "generated_outputs": "Eligible original tables/figures generated from the aggregate results: CC-BY-4.0",
+  "license_texts": {
+    "Apache-2.0": "LICENSES/Apache-2.0.txt",
+    "CC-BY-4.0": "LICENSES/CC-BY-4.0.txt"
+  },
+  "third_party_code_review": "No bundled upstream source file identified in this minimal package; original research code lineage and SKIT attribution retained, no claim to ownership of mathematical methods"
+}
