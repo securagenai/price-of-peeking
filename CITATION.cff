@@ -5,10 +5,16 @@ title: "The Price of Peeking — reproducibility artifact"
 authors:
   - family-names: Feretzakis
     given-names: Georgios
+    orcid: https://orcid.org/0000-0002-3597-1187
     affiliation: securagen.ai
   - family-names: Papaspyridis
     given-names: Alexandros
+    orcid: https://orcid.org/0000-0001-9234-8984
     affiliation: securagen.ai
+# Zenodo DOI of software artifact v1.0.0 (not the manuscript DOI).
+version: 1.0.0
+doi: 10.5281/zenodo.22995998
+date-released: 2026-09-27
 repository-code: "https://github.com/securagenai/price-of-peeking"
 license:
   - Apache-2.0

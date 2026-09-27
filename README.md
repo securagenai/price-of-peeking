@@ -6,6 +6,10 @@ Repository: https://github.com/securagenai/price-of-peeking
 
 Preprint: link will be added upon posting.
 
+Artifact version 1.0.0 is archived on Zenodo under DOI
+[10.5281/zenodo.22995998](https://doi.org/10.5281/zenodo.22995998).
+This DOI identifies the software artifact, not the paper.
+
 ## Quick start: regenerate tables and figures (no dataset needed)
 
 Run from the repository root in an existing Python environment with the required packages; see [requirements.txt](requirements.txt) and [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md).
@@ -23,7 +27,7 @@ Regeneration of the reported empirical table values and figure data from saved r
 
 The following environment statement describes the recorded regeneration checks, not a claim about every subsequent verification environment:
 
-Regeneration checks used scikit-learn 1.6.1, whereas the recorded experimental environment used 1.8.0; see docs/REPRODUCIBILITY.md.
+Regeneration was checked with scikit-learn 1.6.1; the original experiments used 1.8.0 (see docs/REPRODUCIBILITY.md).
 
 ## Obtaining and verifying the dataset
 
@@ -47,7 +51,7 @@ The command verifies the recorded file identity; it does not download, extract o
 
 See [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) for the complete commands, ordered stages, checkpoint behavior and resource limitations. Fresh outputs must be written outside this artifact. `requirements.txt` records historical direct dependency versions; fresh-run entrypoints enforce their specified checks. Portable derived runners are not represented as the exact historical producers.
 
-The historical main real-background run, including its primary and secondary stages, recorded approximately **10,182 CPU seconds** and **4,156 wall seconds** ([aggregate account](results/compute.json)). These are not the combined cost of all synthetic, pilot and follow-up work. Separate and overlapping accounts must not be added indiscriminately; detailed accounting qualifications are in the reproduction documentation. Performance on other hardware is not measured by these historical figures.
+The historical main real-background run, including its primary and secondary stages, recorded approximately **10,182 CPU seconds** and **4,156 wall seconds** ([aggregate account](results/compute.json)). These are not the combined cost of all synthetic, pilot and follow-up work. Detailed accounting qualifications are in the reproduction documentation. Performance on other hardware is not measured by these historical figures.
 
 ## Scope and limitations
 
@@ -75,7 +79,7 @@ Detailed qualifications—including primary Ridge/alpha=.05 headline scope, unre
 
 Eligible original code and executable configurations are licensed under **Apache-2.0**; eligible original documentation, aggregate results and generated figures are licensed under **CC BY 4.0**. These apply to different material, not a choice of either license for every file. Third-party material and the external dataset retain their own terms.
 
-See [LICENSE](LICENSE), [LICENSING.md](LICENSING.md), [NOTICE](NOTICE) and the [file-level licensing map](docs/LICENSING_MAP.json) for the texts, authorized scope and attribution.
+See [LICENSE](LICENSE), [LICENSING.md](LICENSING.md), [NOTICE](NOTICE) and the [file-level licensing map](docs/LICENSING_MAP.json) for the texts, scope and attribution.
 
 ## Citation
 
