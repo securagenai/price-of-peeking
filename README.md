@@ -6,7 +6,7 @@ Repository: https://github.com/securagenai/price-of-peeking
 
 Preprint: link will be added upon posting.
 
-Artifact version 1.0.0 is archived on Zenodo under DOI
+Zenodo DOI for software artifact version 1.0.0:
 [10.5281/zenodo.22995998](https://doi.org/10.5281/zenodo.22995998).
 This DOI identifies the software artifact, not the paper.
 
@@ -24,8 +24,6 @@ python -B -m unittest -v tests.test_essential
 The first three commands write tables, vector PDF figures, numerical LaTeX macros and provenance files outside the repository, under `../peeking-rendered`. The fourth runs the existing tests, including small synthetic checks. Manuscript sources and a manuscript PDF are not bundled or regenerated.
 
 Regeneration of the reported empirical table values and figure data from saved results was verified against the manuscript. A clean-environment rerun of the full experiments has not been performed.
-
-The following environment statement describes the recorded regeneration checks, not a claim about every subsequent verification environment:
 
 Regeneration was checked with scikit-learn 1.6.1; the original experiments used 1.8.0 (see docs/REPRODUCIBILITY.md).
 
