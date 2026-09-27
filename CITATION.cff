@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite it using these metadata."
+type: software
+title: "The Price of Peeking — reproducibility artifact"
+authors:
+  - family-names: Feretzakis
+    given-names: Georgios
+    affiliation: securagen.ai
+  - family-names: Papaspyridis
+    given-names: Alexandros
+    affiliation: securagen.ai
+repository-code: "https://github.com/securagenai/price-of-peeking"
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+# Licenses apply to different material; see LICENSING.md.
+# Add preferred-citation for the paper after posting.
+abstract: "Scripts, configurations and aggregate results supporting reproducible evaluation of fixed-sample and anytime-valid procedures on ML-KEM electromagnetic backgrounds."
+keywords:
+  - side-channel
+  - leakage assessment
+  - ML-KEM
+  - e-values
+  - anytime-valid inference

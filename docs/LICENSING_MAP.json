@@ -11,7 +11,7 @@
       "license_scope": "Apache-2.0"
     },
     {
-      "file": "LICENSE.md",
+      "file": "LICENSING.md",
       "license_scope": "CC-BY-4.0 (eligible original expression only; no exclusive rights asserted over facts/hashes)"
     },
     {
@@ -261,6 +261,14 @@
     {
       "file": "scripts/regenerate_assets_publication_v2.py",
       "license_scope": "Apache-2.0"
+    },
+    {
+      "file": "LICENSE",
+      "license_scope": "UPSTREAM_LICENSE_TEXT_UNMODIFIED"
+    },
+    {
+      "file": "CITATION.cff",
+      "license_scope": "CC-BY-4.0 (eligible original documentation)"
     }
   ],
   "generated_outputs": "Eligible original tables/figures generated from the aggregate results: CC-BY-4.0",

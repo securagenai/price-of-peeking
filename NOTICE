@@ -2,7 +2,7 @@ The Price of Peeking reproducibility artifact
 
 Repository: https://github.com/securagenai/price-of-peeking
 Original artifact contributions: The Price of Peeking contributors.
-See LICENSE.md and docs/LICENSING_MAP.json for the limited Apache-2.0 / CC BY 4.0 grants. No blanket ownership assertion or license for third-party material is made.
+See LICENSING.md and docs/LICENSING_MAP.json for the limited Apache-2.0 / CC BY 4.0 grants. No blanket ownership assertion or license for third-party material is made.
 
 Algorithm attribution: the swap-pair betting and ONS procedures are SKIT-type methods. The local implementation documents SKIT PMLR volume 202, Algorithm 1 and separates literal and gain sign conventions. Algorithm attribution does not imply ownership of the underlying method. No upstream SKIT source file, cryptographic firmware or montgomery_reduce routine is bundled. Existing attribution comments in the independently written research implementations are preserved.
 
