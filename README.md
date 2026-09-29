@@ -4,7 +4,7 @@ Scripts, configurations and aggregate results supporting *The Price of Peeking*,
 
 Repository: https://github.com/securagenai/price-of-peeking
 
-Preprint: link will be added upon posting.
+Preprint: [The Price of Peeking: Anytime-Valid Leakage Detection on ML-KEM EM Traces](https://arxiv.org/abs/2609.33597) (arXiv:2609.33597).
 
 Zenodo DOI for software artifact version 1.0.0:
 [10.5281/zenodo.22995998](https://doi.org/10.5281/zenodo.22995998).
@@ -81,4 +81,4 @@ See [LICENSE](LICENSE), [LICENSING.md](LICENSING.md), [NOTICE](NOTICE) and the [
 
 ## Citation
 
-See CITATION.cff. Please also cite the paper once available.
+See CITATION.cff. Please also cite the paper (arXiv:2609.33597).
