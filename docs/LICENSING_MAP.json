@@ -269,6 +269,10 @@
     {
       "file": "CITATION.cff",
       "license_scope": "CC-BY-4.0 (eligible original documentation)"
+    },
+    {
+      "file": "RELEASING.md",
+      "license_scope": "CC-BY-4.0 (eligible original documentation)"
     }
   ],
   "generated_outputs": "Eligible original tables/figures generated from the aggregate results: CC-BY-4.0",
